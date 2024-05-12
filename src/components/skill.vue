@@ -25,44 +25,41 @@ export default {
               Skills & Awards
             </p>
           </div>
-          <h2 class="font-semibold text-[26px]/normal mt-7">Masterful Talents and Honors</h2>
-          <p class="mt-5 text-gray max-w-[708px] mx-auto">
-            We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have
-            meaning .
-          </p>
+          <h2 class="font-semibold text-[26px]/normal mt-7">Masterful Talents and Certificates</h2>
+          <p class="mt-5 text-gray max-w-[708px] mx-auto">Showcase all the skills and awards that i got</p>
         </div>
       </div>
-      <div class="grid items-center grid-cols-1 gap-10 md:grid-cols-2 md:gap-14 mt-14">
+      <div class="items-center grid-cols-1 gap-10 md:grid-cols-2 md:gap-14 mt-14">
         <div data-aos="fade-up">
           <div class="flex flex-wrap items-start gap-7">
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/figma.svg" class="w-[30px] h-[30px] inline-block" alt="" />
-              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Figma</p>
+              <img src="@/assets/images/tech/go.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Golang</p>
               <p class="mt-2 text-sm font-semibold text-gray">90%</p>
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/sketch-ex.svg" class="w-[30px] h-[30px] inline-block" alt="" />
-              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Sketch</p>
-              <p class="mt-2 text-sm font-semibold text-gray">90%</p>
+              <img src="@/assets/images/tech/node.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">NodeJS</p>
+              <p class="mt-2 text-sm font-semibold text-gray">80%</p>
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/ps-ex.svg" class="w-[30px] h-[30px] inline-block" alt="" />
-              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Photoshop</p>
-              <p class="mt-2 text-sm font-semibold text-gray">90%</p>
+              <img src="@/assets/images/tech/docker.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Docker</p>
+              <p class="mt-2 text-sm font-semibold text-gray">85%</p>
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/ai-ex.svg" class="w-[30px] h-[30px] inline-block" alt="" />
-              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Illustrator</p>
-              <p class="mt-2 text-sm font-semibold text-gray">90%</p>
+              <img src="@/assets/images/tech/kubernetes.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Kubernetes</p>
+              <p class="mt-2 text-sm font-semibold text-gray">80%</p>
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/xd.svg" class="w-[30px] h-[30px] inline-block" alt="" />
-              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Adobe XD</p>
-              <p class="mt-2 text-sm font-semibold text-gray">90%</p>
+              <img src="@/assets/images/tech/vue.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">VueJS</p>
+              <p class="mt-2 text-sm font-semibold text-gray">78%</p>
             </div>
           </div>
         </div>
-        <div data-aos="fade-up">
+        <!-- <div data-aos="fade-up">
           <div class="flex-wrap items-center justify-around md:flex gap-7 space-y-7 md:space-y-0">
             <div>
               <img src="@/assets/images/award-1.png" class="block mx-auto dark:hidden" alt="" />
@@ -77,7 +74,7 @@ export default {
               <img src="@/assets/images/award-dark-3.png" class="hidden mx-auto dark:block" alt="" />
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

@@ -29,7 +29,10 @@ export default {
             </p>
           </div>
           <h2 class="font-semibold text-[26px]/normal mt-7">Education & Experience</h2>
-          <p class="mt-5 text-gray max-w-[708px] mx-auto">Lorem Ipsum is simply dummy text of the printing</p>
+          <p class="mt-5 text-gray max-w-[708px] mx-auto">
+            "Education is the passport to the future, for tomorrow belongs to those who prepare for it today." - Malcolm
+            X
+          </p>
         </div>
       </div>
       <div class="grid grid-cols-1 mt-14">
@@ -91,90 +94,21 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="font-semibold text-warning">2010 - 2012</span>
-                        <span class="text-xl font-semibold">Msc IT Master Degree</span>
+                        <span class="font-semibold text-warning">2017 - 2021</span>
+                        <span class="text-xl font-semibold">Bsc Physics Bachelor's Degree</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        Harvard University is an educational institution that offers graduate, professional, and
-                        research programs in the fields of and public health.
+                        I was graduated from Physics Major in Padjadjaran University. My thesis title is 'Eigenvalue
+                        Calculation Based on Hamiltonian Matrix using Block Matrix Technique: Case Study on Graphene'
+                        with a GPA of 3.36
                       </p>
-                      <p class="mt-6 font-semibold">Harvard University, Cambridge, MA, United States</p>
+                      <p class="mt-6 font-semibold">Padjadjaran University, Jatinangor, West Java, Indonesia</p>
                     </div>
                   </div>
                 </div>
               </div>
               <div
                 class="bg-gradient-radial from-[#994FF5] to-[#FFC41F] shrink-0 rounded-full w-2.5 h-2.5 block absolute ltr:left-px rtl:right-px -translate-x-1/2 ltr:md:left-1/2 rtl:md:right-1/2 transform ltr:md:-translate-x-1/2 rtl:md:translate-x-1/2 top-1/2 -translate-y-1/2"
-              ></div>
-            </div>
-          </div>
-
-          <!-- Right section, set by justify-end and sm:pl-8 -->
-          <div class="relative">
-            <div class="flex flex-col items-center md:flex-row">
-              <div class="flex items-center justify-end w-full mx-auto">
-                <div class="w-full md:w-1/2 ltr:pl-7 rtl:pr-7 ltr:md:pl-8 rtl:md:pr-8 ltr:lg:pl-14 rtl:lg:pr-14">
-                  <div class="space-y-5 ltr:text-left rtl:text-right">
-                    <div>
-                      <svg
-                        class="inline-block"
-                        width="34"
-                        height="34"
-                        viewBox="0 0 34 34"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          opacity="0.2"
-                          d="M29.75 8.5L17 12.75L4.25 8.5L17 4.25L29.75 8.5Z"
-                          fill="url(#paint0_radial_96_398)"
-                        />
-                        <path
-                          d="M30.086 7.49197L17.336 3.24197C17.1179 3.16926 16.8821 3.16926 16.664 3.24197L3.91398 7.49197C3.72114 7.55702 3.55102 7.67608 3.42388 7.83501C3.29674 7.99393 3.21792 8.18603 3.1968 8.38846C3.19056 8.42531 3.18745 8.46264 3.1875 8.50002V19.125C3.1875 19.4068 3.29944 19.6771 3.4987 19.8763C3.69796 20.0756 3.96821 20.1875 4.25 20.1875C4.53179 20.1875 4.80204 20.0756 5.0013 19.8763C5.20056 19.6771 5.3125 19.4068 5.3125 19.125V9.97424L9.77367 11.4604C8.5884 13.3753 8.21149 15.6823 8.7257 17.8749C9.23991 20.0674 10.6032 21.9663 12.5163 23.1546C10.1256 24.0922 8.05906 25.7882 6.54766 28.1071C6.46905 28.224 6.41445 28.3552 6.38703 28.4934C6.35962 28.6315 6.35992 28.7737 6.38794 28.9116C6.41595 29.0496 6.47112 29.1807 6.55023 29.2972C6.62933 29.4137 6.73081 29.5133 6.84875 29.5902C6.96669 29.6671 7.09874 29.7198 7.23723 29.7453C7.37572 29.7707 7.51789 29.7684 7.65547 29.7384C7.79305 29.7084 7.92329 29.6514 8.03863 29.5706C8.15398 29.4898 8.25211 29.3869 8.32734 29.2679C10.3288 26.1973 13.4898 24.4375 17 24.4375C20.5102 24.4375 23.6712 26.1973 25.6727 29.2679C25.8285 29.4995 26.0692 29.6605 26.3428 29.716C26.6164 29.7716 26.9008 29.7172 27.1346 29.5647C27.3685 29.4122 27.5329 29.1738 27.5923 28.9011C27.6518 28.6283 27.6015 28.3431 27.4523 28.1071C25.9409 25.7882 23.8664 24.0922 21.4837 23.1546C23.395 21.9663 24.757 20.0687 25.2711 17.8778C25.7852 15.6868 25.4095 13.3814 24.2263 11.467L30.086 9.51471C30.2976 9.44422 30.4817 9.30893 30.6121 9.12801C30.7425 8.94708 30.8127 8.7297 30.8127 8.50666C30.8127 8.28362 30.7425 8.06624 30.6121 7.88531C30.4817 7.70439 30.2976 7.5691 30.086 7.49861V7.49197ZM23.375 15.9375C23.3753 16.9454 23.1366 17.9389 22.6786 18.8367C22.2205 19.7344 21.5561 20.5108 20.7399 21.1021C19.9237 21.6933 18.979 22.0826 17.9832 22.2381C16.9874 22.3935 15.9689 22.3106 15.0113 21.9962C14.0538 21.6818 13.1844 21.1449 12.4745 20.4294C11.7647 19.714 11.2346 18.8404 10.9277 17.8804C10.6208 16.9204 10.5459 15.9013 10.7092 14.9068C10.8724 13.9122 11.2691 12.9705 11.8668 12.159L16.664 13.7528C16.8821 13.8255 17.1179 13.8255 17.336 13.7528L22.1332 12.159C22.9404 13.2534 23.3756 14.5777 23.375 15.9375ZM17 11.6304L7.61016 8.50002L17 5.36963L26.3898 8.50002L17 11.6304Z"
-                          fill="url(#paint1_radial_96_398)"
-                        />
-                        <defs>
-                          <radialGradient
-                            id="paint0_radial_96_398"
-                            cx="0"
-                            cy="0"
-                            r="1"
-                            gradientUnits="userSpaceOnUse"
-                            gradientTransform="translate(17 8.5) rotate(161.565) scale(13.4397 8.06381)"
-                          >
-                            <stop stop-color="#994FF5" />
-                            <stop offset="1" stop-color="#FFC41F" />
-                          </radialGradient>
-                          <radialGradient
-                            id="paint1_radial_96_398"
-                            cx="0"
-                            cy="0"
-                            r="1"
-                            gradientUnits="userSpaceOnUse"
-                            gradientTransform="translate(17.0001 16.4751) rotate(136.11) scale(19.1664 19.152)"
-                          >
-                            <stop stop-color="#994FF5" />
-                            <stop offset="1" stop-color="#FFC41F" />
-                          </radialGradient>
-                        </defs>
-                      </svg>
-                    </div>
-                    <div class="mt-7">
-                      <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="text-xl font-semibold">BCA Collage Complete Course</span>
-                        <span class="font-semibold text-warning">2007 - 2010</span>
-                      </div>
-                      <p class="mt-5 text-gray">
-                        Columbia University is an educational institution that offers graduate, professional, and
-                        research programs in the fields of and public health.
-                      </p>
-                      <p class="mt-6 font-semibold">Columbia University, New York, NY, United States</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="bg-gradient-radial from-[#994FF5] to-[#FFC41F] shrink-0 rounded-full w-2.5 h-2.5 block absolute ltr:left-px rtl:right-px ltr:-translate-x-1/2 rtl:translate-x-1/2 ltr:md:left-1/2 rtl:md:right-1/2 transform ltr:md:-translate-x-1/2 rtl:md:translate-x-1/2 top-1/2 -translate-y-1/2"
               ></div>
             </div>
           </div>
@@ -231,14 +165,14 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="font-semibold text-warning">1999 - 2007</span>
-                        <span class="text-xl font-semibold">High / Higher Secondary School</span>
+                        <span class="font-semibold text-warning">2014 - 2017</span>
+                        <span class="text-xl font-semibold">Senior High School</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        Princeton University is an educational institution that offers graduate, professional, and
-                        research programs in the fields of and public health.
+                        I was majoring in mathematics and natural sciences in MIPA 1. I have got the 13th rank out of
+                        all students. My national exam scores is 33.00
                       </p>
-                      <p class="mt-6 font-semibold">Princeton University, Princeton, NJ, United States</p>
+                      <p class="mt-6 font-semibold">20 Senior High School, Bandung, West Java, Indonesia</p>
                     </div>
                   </div>
                 </div>
@@ -309,34 +243,40 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="text-xl font-semibold">Admin Template</span>
-                        <span class="font-semibold text-purple">2020 - 2021</span>
+                        <span class="text-xl font-semibold">TechOps Manager</span>
+                        <span class="font-semibold text-purple">2024 - now</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        Collaboration with visual designers: Working closely with visual designers to ensure that UI
-                        design elements align with the overall visual aesthetics and brand guidelines.
+                        As a techops manager, I am responsible for creating system architecture, dissecting the tech
+                        stack used, and creating system flow while still working as a backend developer and devops
+                        engineer.
                       </p>
-                      <p class="mt-6 font-semibold">3336 Southern Street Mineola, NY 11501</p>
+                      <p class="mt-6 font-semibold">PLABS.ID - Bandung, West Java 40152</p>
                       <div class="flex flex-wrap items-center gap-5 mt-7">
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/figma-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/kubernetes.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/sketch-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/go.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/ps-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/node.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/ai-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/docker.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
+                        >
+                          <img src="@/assets/images/tech/terraform.svg" alt="" />
                         </div>
                       </div>
                     </div>
@@ -401,29 +341,36 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="font-semibold text-warning">2016 - 2019</span>
-                        <span class="text-xl font-semibold">Unity Technologies</span>
+                        <span class="font-semibold text-warning">2021 - 2024</span>
+                        <span class="text-xl font-semibold">Mid Software Engineer</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        Interaction design: Defining and designing user interactions, micro interactions, animations,
-                        and transitions to enhance the usability and delightfulness of the product.
+                        As a software engineer, I have roles in backend developer and devops engineer. In the backend
+                        developer role, I create the application logic and data storage needed. Likewise, in the devops
+                        engineer role, I am responsible for deploying the application so that it can be accessed by the
+                        public.
                       </p>
-                      <p class="mt-6 font-semibold">1519 White Oak Drive Kansas City, MO 64127</p>
+                      <p class="mt-6 font-semibold">PLABS.ID - Bandung, West Java 40152</p>
                       <div class="flex flex-wrap items-center gap-5 mt-7 md:justify-end">
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/figma-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/go.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/ps-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/node.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/ai-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/vue.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
+                        >
+                          <img src="@/assets/images/tech/nginx.svg" alt="" />
                         </div>
                       </div>
                     </div>
@@ -488,25 +435,24 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="text-xl font-semibold">Nichol Theme</span>
-                        <span class="font-semibold text-purple">2020 - 2021</span>
+                        <span class="text-xl font-semibold">DevOps Trainer</span>
+                        <span class="font-semibold text-purple">2022</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        Developing the visual style and aesthetic elements of the interface, including color schemes,
-                        typography, icons, and imagery. This involves creating a consistent and visually pleasing design
-                        language that aligns with the brand.
+                        Become a DevOps Trainer to explain what is DevOps Engineer, how to become a DevOps Engineer,
+                        NGINX and Docker fundamental etc.
                       </p>
-                      <p class="mt-6 font-semibold">1466 Southern AvenueKanawha, IA 50447</p>
+                      <p class="mt-6 font-semibold">Sanbercode - Bandung, West Java 40161</p>
                       <div class="flex flex-wrap items-center gap-5 mt-7">
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/ps-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/nginx.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent"
                         >
-                          <img src="@/assets/images/ai-ex.svg" alt="" />
+                          <img src="@/assets/images/tech/docker.svg" alt="" />
                         </div>
                       </div>
                     </div>

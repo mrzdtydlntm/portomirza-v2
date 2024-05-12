@@ -26,13 +26,12 @@ export default {
                   />
                 </svg>
               </span>
-              Services
+              Tech Role
             </p>
           </div>
-          <h2 class="font-semibold text-[26px]/normal mt-7">Services I Offer</h2>
+          <h2 class="font-semibold text-[26px]/normal mt-7">The Role I'm Working On</h2>
           <p class="mt-5 text-gray max-w-[708px] mx-auto">
-            We craft digital, graphic and dimensional thinking, to create category leading brand experiences that have
-            meaning .
+            We craft a digital things, web application or any tech architecture.
           </p>
         </div>
       </div>
@@ -44,10 +43,10 @@ export default {
           <div>
             <img src="@/assets/images/services-1.svg" alt="" />
           </div>
-          <h3 class="text-xl font-semibold">UI/UX Design</h3>
+          <h3 class="text-xl font-semibold">Backend Developer</h3>
           <p class="text-gray">
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout.
+            It is a fact that an application needs logic in it so that every user treatment can have a good experience.
+            Here I have mastered the Golang and ExpressJS programming languages in making the application logic.
           </p>
         </div>
         <div
@@ -57,10 +56,11 @@ export default {
           <div>
             <img src="@/assets/images/services-2.svg" alt="" />
           </div>
-          <h3 class="text-xl font-semibold">Graphic Design</h3>
+          <h3 class="text-xl font-semibold">DevOps Engineer</h3>
           <p class="text-gray">
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout.
+            An application needs to be deployed so that all users can use the application we created. In this case,
+            several deployment techniques such as simple deployment (using NGINX and not containerized), containerized
+            (using docker) and even using kubernetes and terraform.
           </p>
         </div>
         <div
@@ -70,10 +70,11 @@ export default {
           <div>
             <img src="@/assets/images/services-3.svg" alt="" />
           </div>
-          <h3 class="text-xl font-semibold">Motion Design</h3>
+          <h3 class="text-xl font-semibold">System Analyst</h3>
           <p class="text-gray">
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout.
+            It should be known that every application needs planning in its creation such as creating a system
+            architecture, infrastructure management and even determining the techstack to be used. All of this can be
+            made into a pictorial documentation in order to describe the future needs of the application.
           </p>
         </div>
       </div>

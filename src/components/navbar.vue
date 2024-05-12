@@ -14,7 +14,7 @@ export default {
         <div class="flex items-center justify-between w-full">
           <div class="relative z-50">
             <a href="/">
-              <img src="@/assets/images/logo-light.svg" alt="" class="h-10" />
+              <img src="@/assets/images/logo/mrz-logo.png" alt="" class="h-10" />
             </a>
           </div>
           <div class="flex items-center gap-5 lg:hidden">
@@ -46,14 +46,14 @@ export default {
                   >Projects</a
                 >
               </li>
-              <li class="client">
+              <!-- <li class="client">
                 <a v-smooth-scroll href="#client" class="inline-block py-2 font-semibold leading-6 duration-300"
                   >Client</a
                 >
               </li>
               <li class="blog">
                 <a v-smooth-scroll href="#blog" class="inline-block py-2 font-semibold leading-6 duration-300">Blog</a>
-              </li>
+              </li> -->
               <a
                 v-smooth-scroll
                 href="#contact"
@@ -85,14 +85,14 @@ export default {
                 >Projects</a
               >
             </li>
-            <li class="client">
+            <!-- <li class="client">
               <a v-smooth-scroll href="#client" class="inline-block py-2 font-semibold leading-6 duration-300"
                 >Client</a
               >
             </li>
             <li class="blog">
               <a v-smooth-scroll href="#blog" class="inline-block py-2 font-semibold leading-6 duration-300">Blog</a>
-            </li>
+            </li> -->
             <a
               v-smooth-scroll
               href="#contact"

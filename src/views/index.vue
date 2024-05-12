@@ -11,8 +11,106 @@ export default {
     document.documentElement.setAttribute("dir", "ltr");
     document.documentElement.classList.add("scroll-smooth");
   },
+  data: () => {
+    return {
+      typeValue: "",
+      typeStatus: false,
+      displayTextArray: ["Software Engineer", "DevOps Engineer", "Physicist"],
+      typingSpeed: 80,
+      erasingSpeed: 80,
+      newTextDelay: 1000,
+      displayTextArrayIndex: 0,
+      charIndex: 0,
+      pageLoadTime: 200, // the typing won't typed when the animation fadeup
+    };
+  },
+  created() {
+    setTimeout(this.typeText, this.newTextDelay + this.pageLoadTime);
+  },
+  methods: {
+    typeText() {
+      if (this.charIndex < this.displayTextArray[this.displayTextArrayIndex].length) {
+        if (!this.typeStatus) this.typeStatus = true;
+        this.typeValue += this.displayTextArray[this.displayTextArrayIndex].charAt(this.charIndex);
+        this.charIndex += 1;
+        setTimeout(this.typeText, this.typingSpeed);
+      } else {
+        this.typeStatus = false;
+        setTimeout(this.eraseText, this.newTextDelay);
+      }
+    },
+    eraseText() {
+      if (this.charIndex > 0) {
+        if (!this.typeStatus) this.typeStatus = true;
+        this.typeValue = this.displayTextArray[this.displayTextArrayIndex].substring(0, this.charIndex - 1);
+        this.charIndex -= 1;
+        setTimeout(this.eraseText, this.erasingSpeed);
+      } else {
+        this.typeStatus = false;
+        this.displayTextArrayIndex += 1;
+        if (this.displayTextArrayIndex >= this.displayTextArray.length) this.displayTextArrayIndex = 0;
+        setTimeout(this.typeText, this.typingSpeed + 1000);
+      }
+    },
+  },
 };
 </script>
+
+<style>
+.blinking-cursor {
+  color: #2c3e50;
+  -webkit-animation: 1s blink step-end infinite;
+  -moz-animation: 1s blink step-end infinite;
+  -ms-animation: 1s blink step-end infinite;
+  -o-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+@-moz-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+@-webkit-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+@-ms-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+@-o-keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #2c3e50;
+  }
+}
+</style>
 
 <template>
   <Layout>
@@ -22,16 +120,20 @@ export default {
           <div class="flex flex-col flex-wrap items-center gap-5 lg:flex-row">
             <div class="w-full lg:w-1/2">
               <div class="py-16 md:py-24" data-aos="fade-up">
-                <p class="text-warning bg-warning/[14%] font-semibold text-lg inline-block p-2.5">
-                  Hi! I'm Mitchell Hancock
+                <p class="text-warning bg-warning/[14%] font-semibold text-2xl inline-block p-2.5">
+                  Hi! I'm Mirza Aditya Deliantama
                 </p>
-                <h1 class="mt-6 md:mt-8 font-bold text-3xl/normal md:text-[50px]/normal">Freelance UI/UX Designer</h1>
+                <h1 class="mt-6 md:mt-8 font-bold text-3xl/normal md:text-[50px]/normal">
+                  <span>{{ typeValue }}</span>
+                  <span class="blinking-cursor">|</span>
+                  <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
+                </h1>
                 <p class="text-gray mt-6 max-w-[571px] leading-loose">
-                  It has survived not only five centuries, but also the leap into electronic typesetting, remaining
-                  essentially unchanged.
+                  You can fool all of the people some of the time, and some of the people all of the time, but you can't
+                  fool all of the people all of the time. -Abraham Lincoln
                 </p>
                 <div class="flex flex-wrap gap-5 mt-10">
-                  <a href="javascript:;" class="flex items-center gap-2.5 btn btn-purple">
+                  <!-- <a href="javascript:;" class="flex items-center gap-2.5 btn btn-purple">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         opacity="0.2"
@@ -44,8 +146,12 @@ export default {
                       />
                     </svg>
                     Hire Me
-                  </a>
-                  <a href="javascript:;" class="flex items-center gap-2.5 btn btn-outline-white">
+                  </a> -->
+                  <a
+                    href="https://drive.google.com/file/d/1l-1X_rBIIKY3pRKCo_BDTn16WtA42Qaz/view?usp=sharing"
+                    target="_blank"
+                    class="flex items-center gap-2.5 btn btn-outline-white"
+                  >
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         opacity="0.2"
@@ -57,7 +163,7 @@ export default {
                         fill="currentColor"
                       />
                     </svg>
-                    Download CV
+                    Download My CV
                   </a>
                 </div>
                 <div class="flex flex-wrap items-center gap-5 pt-12 md:pt-20 md:gap-12">
@@ -71,9 +177,9 @@ export default {
                       data-delay="0"
                       data-format="{}+"
                     >
-                      <count-to :startVal="0" :endVal="180" :duration="3000"></count-to>+
+                      <count-to :startVal="0" :endVal="15" :duration="3000"></count-to>+
                     </p>
-                    <p class="text-gray">Worldwide Clients</p>
+                    <p class="text-gray">Clients</p>
                   </div>
                   <div class="space-y-3 text-center">
                     <p
@@ -85,7 +191,7 @@ export default {
                       data-delay="0"
                       data-format="{}+"
                     >
-                      <count-to :startVal="0" :endVal="590" :duration="3000"></count-to>+
+                      <count-to :startVal="0" :endVal="20" :duration="3000"></count-to>+
                     </p>
                     <p class="text-gray">Project Done</p>
                   </div>
@@ -99,7 +205,7 @@ export default {
                       data-delay="0"
                       data-format="{}+"
                     >
-                      <count-to :startVal="0" :endVal="12" :duration="3000"></count-to>+
+                      <count-to :startVal="0" :endVal="3" :duration="3000"></count-to>+
                     </p>
                     <p class="text-gray">Years Experience</p>
                   </div>
@@ -112,11 +218,11 @@ export default {
               <p
                 class="max-w-2xl mx-auto mt-5 text-5xl font-extrabold text-center text-transparent uppercase md:text-7xl lg:text-8xl bg-gradient-to-b from-white/70 bg-clip-text"
               >
-                Mitchell Hancock
+                Mirza Aditya Deliantama
               </p>
               <div class="">
                 <img
-                  src="@/assets/images/main-img.png"
+                  src="@/assets/images/mrz-img.png"
                   class="inset-x-0 bottom-0 mx-auto -mt-16 lg:absolute md:mt-0"
                   alt=""
                 />
@@ -149,12 +255,12 @@ export default {
               </p>
             </div>
             <div class="mt-7">
-              <h2 class="font-semibold text-[26px]/normal">Hi! I'm Mitchell Hancock</h2>
+              <h2 class="font-semibold text-[26px]/normal">Hi! I'm Mirza Aditya Deliantama</h2>
               <p class="mt-6 text-gray">
-                I'm Passionate and results-driven UI/UX designer with seven years of experience in crafting intuitive
-                and visually appealing user experiences. Skilled in user research, wireframing, prototyping, and
-                usability testing. Strong collaborator and advocate for user-centered design. Seeking new opportunities
-                to create impactful digital products.
+                I have a passion for technology, especially in software engineering. I have experienced a lot during
+                these 3 years as a software engineer, especially being a backend developer and devops engineer.
+                Mastering programming with Golang and ExpressJS languages, and often handling application deployments
+                using docker, kubernetes and terraform.
               </p>
             </div>
           </div>
@@ -163,50 +269,50 @@ export default {
           <div class="flex-wrap items-start sm:flex gap-7 space-y-7 sm:space-y-0">
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">contact</p>
-              <p class="whitespace-nowrap">mitchellhancock@gmail.com</p>
+              <p class="whitespace-nowrap">mrzdtydlntm@gmail.com</p>
             </div>
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Phone</p>
-              <p class="whitespace-nowrap">+1 (123) 456-7890</p>
+              <p class="whitespace-nowrap">+62 813-9447-3670</p>
             </div>
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Date of birth</p>
-              <p class="whitespace-nowrap">November 28, 1989</p>
+              <p class="whitespace-nowrap">January 23, 1999</p>
             </div>
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Spoken Languages</p>
-              <p class="whitespace-nowrap">English - French - German</p>
+              <p class="whitespace-nowrap">Indonesia - English</p>
             </div>
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Interest</p>
-              <p class="whitespace-nowrap">Music, Reading, journey</p>
+              <p class="whitespace-nowrap">Tech, Music, Game</p>
             </div>
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Social Media</p>
               <ul class="flex flex-wrap items-center gap-5">
                 <li class="shrink-0">
-                  <a href="javascript:;">
-                    <img src="@/assets/images/figma.svg" alt="" />
+                  <a href="https://github.com/mrzdtydlntm" target="_blank">
+                    <img src="@/assets/images/social/github-mark.svg" alt="" style="height: 24px; width: 24px" />
                   </a>
                 </li>
                 <li class="shrink-0">
-                  <a href="javascript:;">
-                    <img src="@/assets/images/dribbble.svg" alt="" />
+                  <a href="https://gitlab.com/mrzdtydlntm" target="_blank">
+                    <img src="@/assets/images/social/gitlab-black.svg" alt="" style="height: 24px; width: 24px" />
                   </a>
                 </li>
                 <li class="shrink-0">
-                  <a href="javascript:;">
-                    <img src="@/assets/images/discord.svg" alt="" />
+                  <a href="https://www.instagram.com/mrzdtydlntm/" target="_blank">
+                    <img src="@/assets/images/social/instagram-black.svg" alt="" style="height: 24px; width: 24px" />
                   </a>
                 </li>
                 <li class="shrink-0">
-                  <a href="javascript:;">
-                    <img src="@/assets/images/twitter.svg" alt="" />
+                  <a href="https://twitter.com/mrzdtydlntm" target="_blank">
+                    <img src="@/assets/images/social/x-black.svg" alt="" style="height: 24px; width: 24px" />
                   </a>
                 </li>
                 <li class="shrink-0">
-                  <a href="javascript:;">
-                    <img src="@/assets/images/linkedIn.svg" alt="" />
+                  <a href="https://www.linkedin.com/in/mrzdtydlntm/" target="_blank">
+                    <img src="@/assets/images/social/linkedin-black.svg" alt="" style="height: 24px; width: 24px" />
                   </a>
                 </li>
               </ul>

@@ -1,13 +1,3 @@
-/*
--------------------------------------------------------------------------
-* Template Name    : Nichol - Tailwind CSS Personal Portfolio Templates   * 
-* Author           : SRBThemes                                          *
-* Version          : 1.0.0                                              *
-* Created          : June 2023                                          *
-* File Description : Main Js file of the template                       *
-*------------------------------------------------------------------------
-*/
-
 var navbar = document.querySelector("nav");
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll(".mobile-nav ul li");
