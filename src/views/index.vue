@@ -1,6 +1,7 @@
 <script>
 import Layout from "../layout/index.vue";
 import { CountTo } from "vue3-count-to";
+import "@/assets/css/typing-effect.css";
 export default {
   name: "INDEX",
   components: {
@@ -16,8 +17,8 @@ export default {
       typeValue: "",
       typeStatus: false,
       displayTextArray: ["Software Engineer", "DevOps Engineer", "Physicist"],
-      typingSpeed: 80,
-      erasingSpeed: 80,
+      typingSpeed: 50,
+      erasingSpeed: 50,
       newTextDelay: 1000,
       displayTextArrayIndex: 0,
       charIndex: 0,
@@ -55,62 +56,6 @@ export default {
   },
 };
 </script>
-
-<style>
-.blinking-cursor {
-  color: #2c3e50;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-@keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-@-moz-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-@-webkit-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-@-ms-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-@-o-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-</style>
 
 <template>
   <Layout>
