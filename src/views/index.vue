@@ -1,6 +1,7 @@
 <script>
 import Layout from "../layout/index.vue";
 import { CountTo } from "vue3-count-to";
+import "@/assets/css/typing-effect.css";
 export default {
   name: "INDEX",
   components: {
@@ -16,8 +17,8 @@ export default {
       typeValue: "",
       typeStatus: false,
       displayTextArray: ["Software Engineer", "DevOps Engineer", "Physicist"],
-      typingSpeed: 80,
-      erasingSpeed: 80,
+      typingSpeed: 50,
+      erasingSpeed: 50,
       newTextDelay: 1000,
       displayTextArrayIndex: 0,
       charIndex: 0,
@@ -56,62 +57,6 @@ export default {
 };
 </script>
 
-<style>
-.blinking-cursor {
-  color: #2c3e50;
-  -webkit-animation: 1s blink step-end infinite;
-  -moz-animation: 1s blink step-end infinite;
-  -ms-animation: 1s blink step-end infinite;
-  -o-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
-}
-@keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-@-moz-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-@-webkit-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-@-ms-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-@-o-keyframes blink {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: #2c3e50;
-  }
-}
-</style>
-
 <template>
   <Layout>
     <section class="pt-[100px] relative overflow-hidden" id="home">
@@ -119,7 +64,7 @@ export default {
         <div class="grid grid-cols-1">
           <div class="flex flex-col flex-wrap items-center gap-5 lg:flex-row">
             <div class="w-full lg:w-1/2">
-              <div class="py-16 md:py-24" data-aos="fade-up">
+              <div class="py-16 md:py-24" data-aos="fade-up" data-aos-duration="1000">
                 <p class="text-warning bg-warning/[14%] font-semibold text-2xl inline-block p-2.5">
                   Hi! I'm Mirza Aditya Deliantama
                 </p>
@@ -236,7 +181,7 @@ export default {
 
     <!-- Start About me -->
     <section class="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%]" id="about">
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
         <div class="grid grid-cols-1">
           <div>
             <div class="inline-block">

@@ -8,7 +8,7 @@ export default {
   <!-- Start Work -->
   <section class="py-16 md:py-24" id="work">
     <div class="container">
-      <div class="grid grid-cols-1" data-aos="fade-up">
+      <div class="grid grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">
           <div class="inline-block">
             <p
@@ -33,11 +33,13 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-warning text-[22px] font-bold">Backoffice System</p>
             <a
               href="https://kifisika.finder.ac.id/"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Aplikasi Penilaian Dosen
@@ -60,6 +62,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://kifisika.finder.ac.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -79,11 +82,13 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-purple text-[22px] font-bold">3D Object Web Map</p>
             <a
               href="https://bhumi.atrbpn.go.id/peta"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               ATR/BPN Geospatial Map
@@ -93,7 +98,7 @@ export default {
               building asset. Took Bing Maps as a basemap, this web application acts like a map in general with some
               special features in processing its spatial data.
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: React JS (Frontend) and Express JS (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: ReactJS (Frontend) and ExpressJS (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/react.svg" alt="" />
@@ -105,6 +110,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://bhumi.atrbpn.go.id/peta"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -124,11 +130,67 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+            <p class="text-purple text-[22px] font-bold">Inventory Management</p>
+            <a
+              href="https://infinity88.id"
+              target="_blank"
+              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
+            >
+              Singgalang
+            </a>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">
+              A new inventory management application called Singgalang App has been introduced, specifically designed
+              for businesses dealing in gold and diamonds. Singgalang App streamlines the process of tracking and
+              managing precious inventory. Users can leverage the built-in barcode scanner to effortlessly capture data
+              on each piece of gold or diamond, ensuring comprehensive and accurate records.
+            </p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">
+              Tech Stack: VueJS (Frontend), Laravel and Golang (Backend)
+            </p>
+            <div class="flex items-center gap-4 mt-5 md:mt-8">
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/vue.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/laravel.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/go.svg" alt="" />
+              </div>
+            </div>
+            <div class="inline-block mt-8">
+              <a
+                href="https://infinity88.id"
+                target="_blank"
+                class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
+              >
+                View Project
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14.0035 7.4083L5.41176 16L4 14.5882L12.5917 5.99654H5.01905V4H16V14.981H14.0035V7.4083Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+            <img src="@/assets/images/work/singgalang.png" class="object-fill w-full h-full mx-auto" alt="" />
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">IoT Sensor WebApp</p>
             <a
               href="https://mastermine.id"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Mastermine
@@ -138,7 +200,7 @@ export default {
               analyze all the sensors data, and do some act to trigger the actuator using this website.
             </p>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
-              Tech Stack: Nuxt JS (Frontend), Golang (Backend), Apache Kafka (Message Broker)
+              Tech Stack: NuxtJS (Frontend), Golang (Backend), Apache Kafka (Message Broker)
             </p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
@@ -154,6 +216,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://mastermine.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -173,20 +236,16 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">Measurement WebApp</p>
-            <a
-              href="javascript:;"
-              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
-            >
-              Teraa
-            </a>
+            <a class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"> Teraa </a>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
               This web application is useful for user that want to get a measure for some instrument. As an example, if
               we have Instrument A, it will have some parameter such as pH, waste water, etc.
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Nuxt JS (Frontend), Golang (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NuxtJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/nuxt.svg" alt="" />
@@ -203,19 +262,17 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">IoT Monitoring WebApp</p>
-            <a
-              href="javascript:;"
-              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
-            >
+            <a class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
               POC MQTT UBS
             </a>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
               This web is useful to monitoring all the devices using MQTT Paho (broker).
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Nuxt JS (Frontend), Golang (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NuxtJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/nuxt.svg" alt="" />
@@ -232,11 +289,13 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">Company Profile WebApp</p>
             <a
               href="https://faxtor.co.id"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Faxtor
@@ -245,7 +304,7 @@ export default {
               Faxtor Company Profile that provide all the information about Faxtor Company such as psychological
               instrument that used by Faxtor, all the member of Faxtor etc.
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Next JS (Frontend), Golang (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NextJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/next.svg" alt="" />
@@ -257,6 +316,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://faxtor.co.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -276,11 +336,13 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">E-Commerce WebApp</p>
             <a
               href="https://crystalsea.id"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Crystal of The Sea
@@ -289,7 +351,7 @@ export default {
               Crystal of The Sea is a company that selling a healthy food such as brown anchovy etc. This e-commerce
               provide a transaction app and company profile.
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Next JS (Frontend), Express JS (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NextJS (Frontend), ExpressJS (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/next.svg" alt="" />
@@ -301,6 +363,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://crystalsea.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -320,13 +383,11 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">QRIS Banking System</p>
-            <a
-              href="https://www.allobank.com"
-              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
-            >
+            <a class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
               Allobank
             </a>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
@@ -348,11 +409,13 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">News Clipping and Sentiment Analysis WebApp</p>
             <a
               href="https://eclip.jabarprov.go.id"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               E-Clip
@@ -362,7 +425,7 @@ export default {
               activities. By utilizing e-Clip, government officials gain access to a centralized and efficient system
               for monitoring news coverage.
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Next JS (Frontend), Golang (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NextJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/next.svg" alt="" />
@@ -374,6 +437,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://eclip.jabarprov.go.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -393,11 +457,13 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">Outfit Planner and Annotation WebApp</p>
             <a
               href="https://dash.spiffify.app"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Spiffify
@@ -409,7 +475,7 @@ export default {
               process for daily attire, taking the guesswork out of what to wear and allowing users to express their
               unique style with ease.
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Vue JS (Frontend), Express JS (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: VueJS (Frontend), ExpressJS (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/vue.svg" alt="" />
@@ -421,6 +487,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://dash.spiffify.app"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
