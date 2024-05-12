@@ -261,7 +261,7 @@ export default {
             <div>
               <ul class="text-white flex items-center flex-wrap gap-3.5">
                 <li>
-                  <a href="https://twitter.com/mrzdtydlntm">
+                  <a href="https://twitter.com/mrzdtydlntm" target="_blank">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         opacity="0.2"
@@ -276,7 +276,7 @@ export default {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/mrzdtydlntm/">
+                  <a href="https://www.instagram.com/mrzdtydlntm/" target="_blank">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         opacity="0.2"
@@ -291,7 +291,7 @@ export default {
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/mrzdtydlntm/">
+                  <a href="https://www.linkedin.com/in/mrzdtydlntm/" target="_blank">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         opacity="0.2"

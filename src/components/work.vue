@@ -39,6 +39,7 @@ export default {
             <p class="text-warning text-[22px] font-bold">Backoffice System</p>
             <a
               href="https://kifisika.finder.ac.id/"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Aplikasi Penilaian Dosen
@@ -61,6 +62,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://kifisika.finder.ac.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -86,6 +88,7 @@ export default {
             <p class="text-purple text-[22px] font-bold">3D Object Web Map</p>
             <a
               href="https://bhumi.atrbpn.go.id/peta"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               ATR/BPN Geospatial Map
@@ -107,6 +110,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://bhumi.atrbpn.go.id/peta"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -132,6 +136,7 @@ export default {
             <p class="text-[#453DB1] text-[22px] font-bold">IoT Sensor WebApp</p>
             <a
               href="https://mastermine.id"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Mastermine
@@ -157,6 +162,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://mastermine.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -180,12 +186,7 @@ export default {
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">Measurement WebApp</p>
-            <a
-              href="javascript:;"
-              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
-            >
-              Teraa
-            </a>
+            <a class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"> Teraa </a>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
               This web application is useful for user that want to get a measure for some instrument. As an example, if
               we have Instrument A, it will have some parameter such as pH, waste water, etc.
@@ -211,10 +212,7 @@ export default {
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">IoT Monitoring WebApp</p>
-            <a
-              href="javascript:;"
-              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
-            >
+            <a class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
               POC MQTT UBS
             </a>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
@@ -243,6 +241,7 @@ export default {
             <p class="text-[#453DB1] text-[22px] font-bold">Company Profile WebApp</p>
             <a
               href="https://faxtor.co.id"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Faxtor
@@ -263,6 +262,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://faxtor.co.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -288,6 +288,7 @@ export default {
             <p class="text-[#453DB1] text-[22px] font-bold">E-Commerce WebApp</p>
             <a
               href="https://crystalsea.id"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Crystal of The Sea
@@ -308,6 +309,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://crystalsea.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -332,7 +334,6 @@ export default {
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">QRIS Banking System</p>
             <a
-              href="https://www.allobank.com"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Allobank
@@ -362,6 +363,7 @@ export default {
             <p class="text-[#453DB1] text-[22px] font-bold">News Clipping and Sentiment Analysis WebApp</p>
             <a
               href="https://eclip.jabarprov.go.id"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               E-Clip
@@ -383,6 +385,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://eclip.jabarprov.go.id"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
@@ -408,6 +411,7 @@ export default {
             <p class="text-[#453DB1] text-[22px] font-bold">Outfit Planner and Annotation WebApp</p>
             <a
               href="https://dash.spiffify.app"
+              target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
               Spiffify
@@ -431,6 +435,7 @@ export default {
             <div class="inline-block mt-8">
               <a
                 href="https://dash.spiffify.app"
+                target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
                 View Project
