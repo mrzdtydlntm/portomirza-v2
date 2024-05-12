@@ -8,7 +8,7 @@ export default {
   <!-- Start Skill & Awards -->
   <section class="py-16 md:py-24 bg-gray/5 dark:bg-gradient-radial dark:from-[#994FF5]/[6%] dark:to-[#FFC41F]/[6%]">
     <div class="container">
-      <div class="grid grid-cols-1" data-aos="fade-up">
+      <div class="grid grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">
           <div class="inline-block">
             <p
@@ -30,7 +30,7 @@ export default {
         </div>
       </div>
       <div class="items-center grid-cols-1 gap-10 md:grid-cols-2 md:gap-14 mt-14">
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-duration="1000">
           <div class="flex flex-wrap items-start gap-7">
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img src="@/assets/images/tech/go.svg" class="w-[30px] h-[30px] inline-block" alt="" />
@@ -59,7 +59,7 @@ export default {
             </div>
           </div>
         </div>
-        <!-- <div data-aos="fade-up">
+        <!-- <div data-aos="fade-up" data-aos-duration="1000">
           <div class="flex-wrap items-center justify-around md:flex gap-7 space-y-7 md:space-y-0">
             <div>
               <img src="@/assets/images/award-1.png" class="block mx-auto dark:hidden" alt="" />

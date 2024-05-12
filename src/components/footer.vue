@@ -23,17 +23,17 @@ export default {
           publicKey: process.env.VUE_APP_EMAILJS_PUBLIC_KEY,
         })
         .then(() => {
-          this.showCallback = true
-          this.callbackMessage = "Email has been sent. Thank you!"
+          this.showCallback = true;
+          this.callbackMessage = "Email has been sent. Thank you!";
           setTimeout(() => {
-            this.showCallback = false
+            this.showCallback = false;
           }, 3000);
         })
         .catch((err) => {
-          this.showCallback = true
-          this.callbackMessage = "Error sending email"
+          this.showCallback = true;
+          this.callbackMessage = "Error sending email";
           setTimeout(() => {
-            this.showCallback = false
+            this.showCallback = false;
           }, 3000);
           console.error(err);
         });

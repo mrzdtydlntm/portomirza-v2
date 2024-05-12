@@ -12,7 +12,7 @@ export default {
     id="services"
   >
     <div class="container">
-      <div class="grid grid-cols-1" data-aos="fade-up">
+      <div class="grid grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">
           <div class="inline-block">
             <p
@@ -39,6 +39,7 @@ export default {
         <div
           class="border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div>
             <img src="@/assets/images/services-1.svg" alt="" />
@@ -52,6 +53,7 @@ export default {
         <div
           class="border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div>
             <img src="@/assets/images/services-2.svg" alt="" />
@@ -66,6 +68,7 @@ export default {
         <div
           class="border-2 border-gray/[12%] p-7 space-y-5 bg-gradient-liner from-white/[4%] to-transparent"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div>
             <img src="@/assets/images/services-3.svg" alt="" />

@@ -11,7 +11,7 @@ export default {
   <!-- Start Education & Experiance -->
   <section class="py-16 md:py-24">
     <div class="container">
-      <div class="grid grid-cols-1" data-aos="fade-up">
+      <div class="grid grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">
           <div class="inline-block">
             <p
@@ -36,7 +36,7 @@ export default {
         </div>
       </div>
       <div class="grid grid-cols-1 mt-14">
-        <div class="relative space-y-12 md:space-y-8" data-aos="fade-up">
+        <div class="relative space-y-12 md:space-y-8" data-aos="fade-up" data-aos-duration="1000">
           <!-- Vertical bar running through middle -->
           <div
             class="block shrink-0 bg-[url('../images/dot-line.svg')] dark:bg-[url('../images/dot-line-dark.svg')] w-[2px] bg-center bg-cover absolute h-full ltr:left-0 rtl:right-0 ltr:md:left-1/2 rtl:md:right-1/2 transform ltr:md:-translate-x-1/2 rtl:md:translate-x-1/2"

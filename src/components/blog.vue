@@ -8,7 +8,7 @@ export default {
   <!-- Start Blog -->
   <section class="py-16 md:py-24" id="blog">
     <div class="container">
-      <div class="grid grid-cols-1" data-aos="fade-up">
+      <div class="grid grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">
           <div class="inline-block">
             <p
@@ -33,7 +33,7 @@ export default {
         </div>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 mt-14">
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-duration="1000">
           <img src="@/assets/images/blog/1.png" class="object-cover w-full mx-auto" alt="" />
           <div class="py-5">
             <div class="flex items-center gap-2.5">
@@ -55,7 +55,7 @@ export default {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-duration="1000">
           <img src="@/assets/images/blog/2.png" class="object-cover w-full mx-auto" alt="" />
           <div class="py-5">
             <div class="flex items-center gap-2.5">
@@ -77,7 +77,7 @@ export default {
             </div>
           </div>
         </div>
-        <div data-aos="fade-up">
+        <div data-aos="fade-up" data-aos-duration="1000">
           <img src="@/assets/images/blog/3.png" class="object-cover w-full mx-auto" alt="" />
           <div class="py-5">
             <div class="flex items-center gap-2.5">

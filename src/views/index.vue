@@ -119,7 +119,7 @@ export default {
         <div class="grid grid-cols-1">
           <div class="flex flex-col flex-wrap items-center gap-5 lg:flex-row">
             <div class="w-full lg:w-1/2">
-              <div class="py-16 md:py-24" data-aos="fade-up">
+              <div class="py-16 md:py-24" data-aos="fade-up" data-aos-duration="1000">
                 <p class="text-warning bg-warning/[14%] font-semibold text-2xl inline-block p-2.5">
                   Hi! I'm Mirza Aditya Deliantama
                 </p>
@@ -236,7 +236,7 @@ export default {
 
     <!-- Start About me -->
     <section class="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%]" id="about">
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
         <div class="grid grid-cols-1">
           <div>
             <div class="inline-block">

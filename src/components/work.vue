@@ -8,7 +8,7 @@ export default {
   <!-- Start Work -->
   <section class="py-16 md:py-24" id="work">
     <div class="container">
-      <div class="grid grid-cols-1" data-aos="fade-up">
+      <div class="grid grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">
           <div class="inline-block">
             <p
@@ -33,6 +33,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-warning text-[22px] font-bold">Backoffice System</p>
@@ -79,6 +80,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-purple text-[22px] font-bold">3D Object Web Map</p>
@@ -124,6 +126,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">IoT Sensor WebApp</p>
@@ -173,6 +176,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">Measurement WebApp</p>
@@ -203,6 +207,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">IoT Monitoring WebApp</p>
@@ -232,6 +237,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">Company Profile WebApp</p>
@@ -276,6 +282,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">E-Commerce WebApp</p>
@@ -320,6 +327,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">QRIS Banking System</p>
@@ -348,6 +356,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">News Clipping and Sentiment Analysis WebApp</p>
@@ -393,6 +402,7 @@ export default {
         <div
           class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up"
+          data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">Outfit Planner and Annotation WebApp</p>
