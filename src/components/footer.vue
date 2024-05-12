@@ -1,8 +1,50 @@
 <script>
 import { ref, onMounted } from "vue";
+import emailjs from "@emailjs/browser";
 
 export default {
   name: "FOOTER",
+
+  data() {
+    return {
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+      showCallback: false,
+      callbackMessage: "",
+    };
+  },
+
+  methods: {
+    sendEmail() {
+      emailjs
+        .sendForm(process.env.VUE_APP_EMAILJS_SERVICE_ID, process.env.VUE_APP_EMAILJS_TEMPLATE_ID, this.$refs.form, {
+          publicKey: process.env.VUE_APP_EMAILJS_PUBLIC_KEY,
+        })
+        .then(() => {
+          this.showCallback = true
+          this.callbackMessage = "Email has been sent. Thank you!"
+          setTimeout(() => {
+            this.showCallback = false
+          }, 3000);
+        })
+        .catch((err) => {
+          this.showCallback = true
+          this.callbackMessage = "Error sending email"
+          setTimeout(() => {
+            this.showCallback = false
+          }, 3000);
+          console.error(err);
+        });
+
+      // Reset form field
+      this.name = "";
+      this.email = "";
+      this.subject = "";
+      this.message = "";
+    },
+  },
 
   setup() {
     const isOpen = ref(false);
@@ -85,27 +127,53 @@ export default {
                       </h3>
                       <p class="mt-5 text-gray">Tell us more about yourself and what you're got in mind.</p>
                     </div>
-                    <form class="mt-8 md:mt-12">
+                    <form ref="form" @submit.prevent="sendEmail" class="mt-8 md:mt-12">
                       <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
                         <div>
-                          <input type="text" class="form-input" placeholder="Full name..." required="" />
+                          <input
+                            name="name"
+                            v-model="name"
+                            type="text"
+                            class="form-input"
+                            placeholder="Full name..."
+                            required=""
+                          />
                         </div>
                         <div>
-                          <input type="email" class="form-input" placeholder="Your Email" required="" />
+                          <input
+                            name="email"
+                            v-model="email"
+                            type="email"
+                            class="form-input"
+                            placeholder="Your Email"
+                            required=""
+                          />
                         </div>
                         <div class="md:col-span-2">
-                          <input type="text" class="form-input" placeholder="Subject" required="" />
+                          <input
+                            name="subject"
+                            v-model="subject"
+                            type="text"
+                            class="form-input"
+                            placeholder="Subject"
+                            required=""
+                          />
                         </div>
                         <div class="md:col-span-2">
                           <textarea
                             rows="3"
                             class="h-auto resize-none form-textarea"
                             placeholder="Your message..."
+                            name="message"
+                            v-model="message"
                             required=""
                           ></textarea>
                         </div>
                         <div class="md:col-span-2">
-                          <button type="submit" class="btn btn-purple">Send Message</button>
+                          <button type="submit" value="send" class="btn btn-purple">Send Message</button>
+                        </div>
+                        <div v-if="showCallback">
+                          <p class="text-green-500">{{ callbackMessage }}</p>
                         </div>
                       </div>
                     </form>

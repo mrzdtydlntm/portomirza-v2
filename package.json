@@ -9,6 +9,7 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "alpinejs": "^3.13.5",
     "aos": "^2.3.4",
     "bootstrap": "^5.1.3",

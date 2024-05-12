@@ -7,6 +7,9 @@ settings:
 importers:
   .:
     dependencies:
+      "@emailjs/browser":
+        specifier: ^4.3.3
+        version: 4.3.3
       alpinejs:
         specifier: ^3.13.5
         version: 3.13.10
@@ -845,6 +848,11 @@ packages:
     resolution:
       { integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw== }
     engines: { node: ">=10.0.0" }
+
+  "@emailjs/browser@4.3.3":
+    resolution:
+      { integrity: sha512-ltpt2S/WVREIBXptxYAVYBvXb2O6yTUYiRUWF8OLikMxlmiGsIgKpgHppikNd4Df0uAav7jCsQKcOJ3TJFUx5g== }
+    engines: { node: ">=14.0.0" }
 
   "@eslint/eslintrc@0.4.3":
     resolution:
@@ -6374,6 +6382,8 @@ snapshots:
       to-fast-properties: 2.0.0
 
   "@discoveryjs/json-ext@0.5.7": {}
+
+  "@emailjs/browser@4.3.3": {}
 
   "@eslint/eslintrc@0.4.3":
     dependencies:
