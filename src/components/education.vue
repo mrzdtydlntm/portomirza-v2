@@ -45,8 +45,8 @@ export default {
           <!-- Left section, set by justify-start and sm:pr-8 -->
           <div class="relative !mt-0">
             <div class="flex flex-col items-center md:flex-row">
-              <div class="flex items-center justify-start w-full mx-auto">
-                <div class="w-full md:w-1/2 ltr:pl-7 rtl:pr-7 ltr:md:pr-8 rtl:md:pl-8 ltr:lg:pr-14 rtl:lg:pl-14">
+              <div class="flex items-center justify-end w-full mx-auto">
+                <div class="w-full md:w-1/2 ltr:pl-7 rtl:pr-7 ltr:md:pl-8 rtl:md:pr-8 ltr:lg:pl-14 rtl:lg:pr-14">
                   <div class="space-y-5 ltr:text-left rtl:text-right ltr:md:text-right rtl:md:text-left">
                     <div>
                       <svg
