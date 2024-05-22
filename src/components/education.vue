@@ -94,7 +94,7 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="font-semibold text-warning">2017 - 2021</span>
+                        <span class="font-semibold text-purple">2017 - 2021</span>
                         <span class="text-xl font-semibold">Bsc Physics Bachelor's Degree</span>
                       </div>
                       <p class="mt-5 text-gray">
