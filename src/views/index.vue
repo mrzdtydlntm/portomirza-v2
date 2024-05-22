@@ -68,7 +68,6 @@ export default {
                 <p class="text-warning bg-warning/[14%] font-semibold text-2xl inline-block p-2.5">
                   Hi! I'm Mirza Aditya Deliantama
                 </p>
-                <p class="text-skyblue">awkoawkawok</p>
                 <h1 class="mt-6 md:mt-8 font-bold text-3xl/normal md:text-[50px]/normal">
                   <span>{{ typeValue }}</span>
                   <span class="blinking-cursor">|</span>
