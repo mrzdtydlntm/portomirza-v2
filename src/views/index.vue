@@ -68,6 +68,7 @@ export default {
                 <p class="text-warning bg-warning/[14%] font-semibold text-2xl inline-block p-2.5">
                   Hi! I'm Mirza Aditya Deliantama
                 </p>
+                <p class="text-skyblue">awkoawkawok</p>
                 <h1 class="mt-6 md:mt-8 font-bold text-3xl/normal md:text-[50px]/normal">
                   <span>{{ typeValue }}</span>
                   <span class="blinking-cursor">|</span>
@@ -160,11 +161,11 @@ export default {
             <div
               class="bg-gradient-radial from-[#994FF5] to-[#FFC41F] max-w-[800px] md:top-[100px] lg:absolute bottom-0 ltr:right-0 rtl:left-0 lg:w-6/12 w-full"
             >
-              <p
+              <!-- <p
                 class="max-w-2xl mx-auto mt-5 text-5xl font-extrabold text-center text-transparent uppercase md:text-7xl lg:text-8xl bg-gradient-to-b from-white/70 bg-clip-text"
               >
                 Mirza Aditya Deliantama
-              </p>
+              </p> -->
               <div class="">
                 <img
                   src="@/assets/images/mrz-img.png"
@@ -205,7 +206,7 @@ export default {
                 I have a passion for technology, especially in software engineering. I have experienced a lot during
                 these 3 years as a software engineer, especially being a backend developer and devops engineer.
                 Mastering programming with Golang and ExpressJS languages, and often handling application deployments
-                using docker, kubernetes and terraform.
+                using Docker, Kubernetes and Terraform.
               </p>
             </div>
           </div>
@@ -213,7 +214,7 @@ export default {
         <div class="grid grid-cols-1 mt-14">
           <div class="flex-wrap items-start sm:flex gap-7 space-y-7 sm:space-y-0">
             <div class="space-y-2.5 font-semibold flex-1">
-              <p class="text-gray whitespace-nowrap">contact</p>
+              <p class="text-gray whitespace-nowrap">Contact</p>
               <p class="whitespace-nowrap">mrzdtydlntm@gmail.com</p>
             </div>
             <div class="space-y-2.5 font-semibold flex-1">
