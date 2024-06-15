@@ -222,7 +222,7 @@ export default {
             </span>
             <div class="mt-7">
               <p class="text-sm text-white/80">Our friendly team is there to help.</p>
-              <p class="mt-3 text-lg font-semibold">mrzdtydlntm@gmail.com</p>
+              <p class="mt-3 text-lg font-semibold">me@mrzdtydlntm.my.id</p>
             </div>
           </div>
           <div class="text-white">

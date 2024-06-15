@@ -214,7 +214,7 @@ export default {
           <div class="flex-wrap items-start sm:flex gap-7 space-y-7 sm:space-y-0">
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Contact</p>
-              <p class="whitespace-nowrap">mrzdtydlntm@gmail.com</p>
+              <p class="whitespace-nowrap">me@mrzdtydlntm.my.id</p>
             </div>
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Phone</p>
