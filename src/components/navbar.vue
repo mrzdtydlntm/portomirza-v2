@@ -46,6 +46,15 @@ export default {
                   >Projects</a
                 >
               </li>
+              <li class="docs">
+                <a
+                  v-smooth-scroll
+                  target="_blank"
+                  href="https://docs.mrzdtydlntm.my.id"
+                  class="inline-block py-2 font-semibold leading-6 duration-300"
+                  >My Docs</a
+                >
+              </li>
               <!-- <li class="client">
                 <a v-smooth-scroll href="#client" class="inline-block py-2 font-semibold leading-6 duration-300"
                   >Client</a
