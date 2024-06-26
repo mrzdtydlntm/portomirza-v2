@@ -5,15 +5,21 @@ import vueSmoothScroll from "vue-smooth-scroll";
 import "alpinejs";
 import "@/assets/css/style.css";
 import "@/assets/css/tailwind.css";
-import { createGtm } from "@gtm-support/vue-gtm";
+import VueGtag from "vue-gtag";
 
 const app = createApp(App);
 
 app.use(
-  createGtm({
-    id: process.env.VUE_APP_GOOGLE_ANALYTICS_KEY,
-    vueRouter: routes,
-  })
+  VueGtag,
+  {
+    config: {
+      id: process.env.VUE_APP_GOOGLE_ANALYTICS_KEY,
+    },
+    appName: "My Portfolio",
+    pageTrackerEnabled: true,
+    pageTrackerScreenviewEnabled: true,
+  },
+  routes
 );
 
 app.use(routes);
