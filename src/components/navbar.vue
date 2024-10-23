@@ -17,15 +17,6 @@ export default {
               <img src="@/assets/images/logo/mrz-logo.png" alt="" class="h-10" />
             </a>
           </div>
-          <div class="flex items-center gap-5 lg:hidden">
-            <button class="block text-white outline-none lg:hidden mobile-menu-button">
-              <svg class="w-8 h-8" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect opacity="0.3" x="3" y="17.2" width="18" height="1.6" rx="0.8" fill="currentColor"></rect>
-                <rect opacity="0.5" x="3" y="11.6" width="18" height="1.6" rx="0.8" fill="currentColor"></rect>
-                <rect x="3" y="6" width="18" height="1.6" rx="0.8" fill="currentColor"></rect>
-              </svg>
-            </button>
-          </div>
           <div class="hidden lg:block">
             <ul class="flex items-center text-white list-none space-x-7 rtl:space-x-reverse all-nav">
               <li class="home active">
