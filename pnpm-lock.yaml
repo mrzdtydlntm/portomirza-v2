@@ -41,6 +41,9 @@ importers:
       vue:
         specifier: ^3.4.30
         version: 3.4.30
+      vue-gtag-next:
+        specifier: ^1.14.0
+        version: 1.14.0(vue@3.4.30)
       vue-router:
         specifier: ^4.4.0
         version: 4.4.0(vue@3.4.30)
@@ -4351,6 +4354,11 @@ packages:
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: '>=6.0.0'
+
+  vue-gtag-next@1.14.0:
+    resolution: {integrity: sha512-iJl+cOG2GU5NuxqzSSIpt03WVOvZqyKB9TOy7d55KiuvRklcnb2nlqxW5B/a3/sbIt7fla+XEkRyMCcoz0zAHw==}
+    peerDependencies:
+      vue: ^3.0.0-rc.11
 
   vue-hot-reload-api@2.3.4:
     resolution: {integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==}
@@ -9373,6 +9381,10 @@ snapshots:
       semver: 7.6.2
     transitivePeerDependencies:
       - supports-color
+
+  vue-gtag-next@1.14.0(vue@3.4.30):
+    dependencies:
+      vue: 3.4.30
 
   vue-hot-reload-api@2.3.4: {}
 
