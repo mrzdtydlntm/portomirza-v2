@@ -125,6 +125,7 @@ export default {
               >
             </li>
             <a
+              @click="isMobileMenuOpen = false"
               v-smooth-scroll
               href="#contact"
               class="inline-block px-5 py-3 mt-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
