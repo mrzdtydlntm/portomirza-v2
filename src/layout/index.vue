@@ -5,7 +5,7 @@ import Service from "../components/service.vue";
 // import Testimonial from "../components/testimonial.vue";
 import Skill from "../components/skill.vue";
 import Education from "../components/education.vue";
-import Work from "../components/work.vue";
+// import Work from "../components/work.vue";
 import Footer from "../components/footer.vue";
 import { ref, onMounted } from "vue";
 import AOS from "aos";
@@ -20,7 +20,7 @@ export default {
     // Testimonial,
     Skill,
     Education,
-    Work,
+    // Work,
     Footer,
   },
   setup() {
@@ -89,7 +89,7 @@ export default {
     <Service />
     <Education />
     <Skill />
-    <Work />
+    <!-- <Work /> -->
     <!-- <Testimonial /> -->
     <!-- <Blog /> -->
     <Footer />
