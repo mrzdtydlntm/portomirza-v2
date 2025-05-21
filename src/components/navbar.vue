@@ -71,10 +71,10 @@ export default {
                 >
               </li> -->
               <a
-                target="_blank"
-                href="https://docs.mrzdtydlntm.my.id"
+                v-smooth-scroll
+                href="#contact"
                 class="inline-block px-5 py-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
-                >My Docs</a
+                >Let's Chat</a
               >
             </ul>
           </div>
@@ -139,10 +139,10 @@ export default {
             </li> -->
             <a
               @click="isMobileMenuOpen = false"
-              href="https://docs.mrzdtydlntm.my.id"
-              target="_blank"
+              v-smooth-scroll
+              href="#contact"
               class="inline-block px-5 py-3 mt-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
-              >My Docs</a
+              >Let's Chat</a
             >
           </ul>
         </div>

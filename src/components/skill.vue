@@ -34,28 +34,33 @@ export default {
           <div class="flex flex-wrap items-start gap-7">
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img src="@/assets/images/tech/go.svg" class="w-[30px] h-[30px] inline-block" alt="" />
-              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Golang</p>
-              <p class="mt-2 text-sm font-semibold text-gray">90%</p>
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Go</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">90%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img src="@/assets/images/tech/node.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">NodeJS</p>
-              <p class="mt-2 text-sm font-semibold text-gray">90%</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">90%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img src="@/assets/images/tech/docker.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Docker</p>
-              <p class="mt-2 text-sm font-semibold text-gray">85%</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">85%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img src="@/assets/images/tech/kubernetes.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Kubernetes</p>
-              <p class="mt-2 text-sm font-semibold text-gray">85%</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">85%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img src="@/assets/images/tech/vue.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">VueJS</p>
-              <p class="mt-2 text-sm font-semibold text-gray">75%</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
+            </div>
+            <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
+              <img src="@/assets/images/tech/gcp.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Google Cloud Project</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
             </div>
           </div>
         </div>

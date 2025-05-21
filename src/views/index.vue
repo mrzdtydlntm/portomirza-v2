@@ -202,10 +202,10 @@ export default {
             <div class="mt-7">
               <h2 class="font-semibold text-[26px]/normal">Hi! I'm Mirza Aditya Deliantama</h2>
               <p class="mt-6 text-gray">
-                I have a passion for technology, especially in software engineering. I have experienced a lot during
-                these 3 years as a software engineer, especially being a backend developer and devops engineer.
-                Mastering programming with Golang and ExpressJS languages, and often handling application deployments
-                using Docker, Kubernetes and Terraform.
+                Passionate about technology, especially in software engineering. Experienced a lot during these 4+ years
+                as a software engineer, especially being a Backend and DevOps engineer. Mastering programming with
+                Golang and ExpressJS languages, and often handling application deployments using Docker, Kubernetes, and
+                Terraform.
               </p>
             </div>
           </div>
@@ -219,10 +219,6 @@ export default {
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Phone</p>
               <p class="whitespace-nowrap">+62 813-9447-3670</p>
-            </div>
-            <div class="space-y-2.5 font-semibold flex-1">
-              <p class="text-gray whitespace-nowrap">Date of birth</p>
-              <p class="whitespace-nowrap">January 23, 1999</p>
             </div>
             <div class="space-y-2.5 font-semibold flex-1">
               <p class="text-gray whitespace-nowrap">Spoken Languages</p>
@@ -248,11 +244,6 @@ export default {
                 <li class="shrink-0">
                   <a href="https://www.instagram.com/mrzdtydlntm/" target="_blank">
                     <img src="@/assets/images/social/instagram-black.svg" alt="" style="height: 24px; width: 24px" />
-                  </a>
-                </li>
-                <li class="shrink-0">
-                  <a href="https://twitter.com/mrzdtydlntm" target="_blank">
-                    <img src="@/assets/images/social/x-black.svg" alt="" style="height: 24px; width: 24px" />
                   </a>
                 </li>
                 <li class="shrink-0">
