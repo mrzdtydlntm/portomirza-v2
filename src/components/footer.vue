@@ -183,7 +183,11 @@ export default {
             </div>
           </div>
           <div>
-            <img src="@/assets/images/contact-cartoon.png" class="mx-auto" alt="" />
+            <img 
+              src="@/assets/images/cartoon-me.png" 
+              class="mx-auto w-48 h-48 rounded-full shadow-lg border-4 border-white" 
+              alt="Cartoon of me" 
+            />
           </div>
         </div>
       </div>
@@ -206,7 +210,7 @@ export default {
               </svg>
             </span>
             <div class="mt-7">
-              <p class="text-sm text-white/80">Mon-Fri from 8am to 5pm.</p>
+              <p class="text-sm text-white/80">Phone Number:</p>
               <p class="mt-3 text-lg font-semibold">+62 813-9447-3670</p>
             </div>
           </div>
@@ -221,7 +225,7 @@ export default {
               </svg>
             </span>
             <div class="mt-7">
-              <p class="text-sm text-white/80">Our friendly team is there to help.</p>
+              <p class="text-sm text-white/80">Email:</p>
               <p class="mt-3 text-lg font-semibold">me@mrzdtydlntm.my.id</p>
             </div>
           </div>
@@ -240,11 +244,8 @@ export default {
               </svg>
             </span>
             <div class="mt-7">
-              <p class="text-sm text-white/80">Come say hello at our office HQ.</p>
-              <p class="mt-3 text-lg font-semibold">PLABS.ID</p>
-              <p class="mt-3 text-lg font-semibold">
-                Jl. Setrasari Tengah No.10, Sukarasa, Kec. Sukasari, Kota Bandung, Jawa Barat 40152
-              </p>
+              <p class="text-sm text-white/80">Hometown:</p>
+              <p class="mt-3 text-lg font-semibold">Bandung, Indonesia</p>
             </div>
           </div>
         </div>
@@ -260,7 +261,7 @@ export default {
             </div>
             <div>
               <ul class="text-white flex items-center flex-wrap gap-3.5">
-                <li>
+                <!-- <li>
                   <a href="https://twitter.com/mrzdtydlntm" target="_blank">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
@@ -274,7 +275,7 @@ export default {
                       />
                     </svg>
                   </a>
-                </li>
+                </li> -->
                 <li>
                   <a href="https://www.instagram.com/mrzdtydlntm/" target="_blank">
                     <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">

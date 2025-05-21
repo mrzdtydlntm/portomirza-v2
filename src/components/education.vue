@@ -9,7 +9,7 @@ export default {
 
 <template>
   <!-- Start Education & Experiance -->
-  <section class="py-16 md:py-24">
+  <section class="py-16 md:py-24" id="education">
     <div class="container">
       <div class="grid grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">

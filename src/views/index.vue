@@ -93,7 +93,7 @@ export default {
                     Hire Me
                   </a> -->
                   <a
-                    href="https://drive.google.com/file/d/1l-1X_rBIIKY3pRKCo_BDTn16WtA42Qaz/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1ZiGINIJx16nrwvC33csx8SNSJ_Ofqqj2/view?usp=sharing"
                     target="_blank"
                     class="flex items-center gap-2.5 btn btn-outline-white"
                   >
@@ -122,7 +122,7 @@ export default {
                       data-delay="0"
                       data-format="{}+"
                     >
-                      <count-to :startVal="0" :endVal="15" :duration="3000"></count-to>+
+                      <count-to :startVal="0" :endVal="15" :duration="5500"></count-to>+
                     </p>
                     <p class="text-gray">Clients</p>
                   </div>
@@ -136,7 +136,7 @@ export default {
                       data-delay="0"
                       data-format="{}+"
                     >
-                      <count-to :startVal="0" :endVal="20" :duration="3000"></count-to>+
+                      <count-to :startVal="0" :endVal="30" :duration="5500"></count-to>+
                     </p>
                     <p class="text-gray">Project Done</p>
                   </div>
@@ -150,7 +150,7 @@ export default {
                       data-delay="0"
                       data-format="{}+"
                     >
-                      <count-to :startVal="0" :endVal="3" :duration="3000"></count-to>+
+                      <count-to :startVal="0" :endVal="4" :duration="3000"></count-to>+
                     </p>
                     <p class="text-gray">Years Experience</p>
                   </div>

@@ -51,12 +51,17 @@ export default {
                   >Services</a
                 >
               </li>
+              <li class="education">
+                <a v-smooth-scroll href="#education" class="inline-block py-2 font-semibold leading-6 duration-300"
+                  >Education & Experience</a
+                >
+              </li>
               <li class="work">
                 <a v-smooth-scroll href="#work" class="inline-block py-2 font-semibold leading-6 duration-300"
                   >Projects</a
                 >
               </li>
-              <li class="docs">
+              <!-- <li class="docs">
                 <a
                   v-smooth-scroll
                   target="_blank"
@@ -64,7 +69,7 @@ export default {
                   class="inline-block py-2 font-semibold leading-6 duration-300"
                   >My Docs</a
                 >
-              </li>
+              </li> -->
               <a
                 v-smooth-scroll
                 href="#contact"
@@ -105,6 +110,15 @@ export default {
                 >Services</a
               >
             </li>
+            <li class="education">
+              <a
+                @click="isMobileMenuOpen = false"
+                v-smooth-scroll
+                href="#education"
+                class="inline-block py-2 font-semibold leading-6 duration-300"
+                >Education & Experience</a
+              >
+            </li>
             <li class="work">
               <a
                 @click="isMobileMenuOpen = false"
@@ -114,7 +128,7 @@ export default {
                 >Projects</a
               >
             </li>
-            <li class="docs">
+            <!-- <li class="docs">
               <a
                 @click="isMobileMenuOpen = false"
                 v-smooth-scroll
@@ -123,7 +137,7 @@ export default {
                 class="inline-block py-2 font-semibold leading-6 duration-300"
                 >My Docs</a
               >
-            </li>
+            </li> -->
             <a
               @click="isMobileMenuOpen = false"
               v-smooth-scroll
