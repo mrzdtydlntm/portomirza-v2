@@ -71,10 +71,10 @@ export default {
                 >
               </li> -->
               <a
-                v-smooth-scroll
-                href="#contact"
+                target="_blank"
+                href="https://docs.mrzdtydlntm.my.id"
                 class="inline-block px-5 py-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
-                >Let's Chat</a
+                >My Docs</a
               >
             </ul>
           </div>
@@ -132,18 +132,17 @@ export default {
               <a
                 @click="isMobileMenuOpen = false"
                 v-smooth-scroll
-                target="_blank"
-                href="https://docs.mrzdtydlntm.my.id"
+                href="#contact"
                 class="inline-block py-2 font-semibold leading-6 duration-300"
-                >My Docs</a
+                >Let's Chat</a
               >
             </li> -->
             <a
               @click="isMobileMenuOpen = false"
-              v-smooth-scroll
-              href="#contact"
+              href="https://docs.mrzdtydlntm.my.id"
+              target="_blank"
               class="inline-block px-5 py-3 mt-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
-              >Let's Chat</a
+              >My Docs</a
             >
           </ul>
         </div>
