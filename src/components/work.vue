@@ -365,6 +365,9 @@ export default {
                 <img src="@/assets/images/tech/next.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/vue.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/node.svg" alt="" />
               </div>
             </div>
