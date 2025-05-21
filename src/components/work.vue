@@ -36,40 +36,35 @@ export default {
           data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
-            <p class="text-[#453DB1] text-[22px] font-bold">Outfit Planner and Annotation WebApp</p>
+            <p class="text-[#453DB1] text-[22px] font-bold">Company Profile</p>
             <a
-              href="https://dash.spiffify.app"
+              href="https://icdr.dev-plabs.id"
               target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
-              Spiffify
+              Indonesian Center for Drugs Research
             </a>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
-              Spiffify helps users curate stylish looks by suggesting outfits based on their existing wardrobe. This
-              innovative app doesn't just stop at outfit suggestions; it empowers users to annotate and label individual
-              items, creating a personalized fashion catalog within the app. Spiffify streamlines the decision-making
-              process for daily attire, taking the guesswork out of what to wear and allowing users to express their
-              unique style with ease.
+              Indonesian Center for Drugs Research (ICDR) is an organization that conducts research on medicines and
+              harmonizes them with existing regulations. This app displays the information needed to learn more about
+              ICDR, and can embed a public tableau to display their research results in the form of graphs and charts.
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: VueJS (Frontend), ExpressJS (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Next JS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/vue.svg" alt="" />
+                <img src="@/assets/images/tech/next.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/node.svg" alt="" />
-              </div>
-              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/flutter.svg" alt="" />
+                <img src="@/assets/images/tech/go.svg" alt="" />
               </div>
             </div>
             <div class="inline-block mt-8">
               <a
-                href="https://play.google.com/store/apps/details?id=app.spiffify.spiffify_app&hl=en"
+                href="https://icdr.dev-plabs.id"
                 target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
-                Download App
+                View Project
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M14.0035 7.4083L5.41176 16L4 14.5882L12.5917 5.99654H5.01905V4H16V14.981H14.0035V7.4083Z"
@@ -80,7 +75,117 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/spiffify.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/icdr.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+            <p class="text-[#453DB1] text-[22px] font-bold">Company Profile</p>
+            <a
+              href="https://global.avividai.com/en"
+              target="_blank"
+              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
+            >
+              AviviD.ai
+            </a>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">
+              AviviD.ai is a MarTech company in Taiwan that provides a platform for companies to analyze their
+              customers' behavior. This application is used by many companies in Taiwan to analyze their customers'
+              behavior and make decisions based on the data they get.
+            </p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Next JS (Frontend), Golang (Backend)</p>
+            <div class="flex items-center gap-4 mt-5 md:mt-8">
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/next.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/node.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/strapi.svg" alt="" />
+              </div>
+            </div>
+            <div class="inline-block mt-8">
+              <a
+                href="https://global.avividai.com/en"
+                target="_blank"
+                class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
+              >
+                View Project
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14.0035 7.4083L5.41176 16L4 14.5882L12.5917 5.99654H5.01905V4H16V14.981H14.0035V7.4083Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/avivid.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+            <p class="text-[#453DB1] text-[22px] font-bold">Psychology Test Application</p>
+            <a
+              href="https://carrol-dash.online-assessment.co.id"
+              target="_blank"
+              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
+            >
+              Faxtor Online Assessment
+            </a>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">
+              Faxtor Online Assessment is a test application to determine a person's psychological state. We can see the
+              cognitive, behavioral and habitual levels of the candidate taking the test. This application has been used
+              by more than 1000 people from many companies in Indonesia.
+            </p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">
+              Tech Stack: Next JS (Frontend), Golang (Backend), Kubernetes (DevOps)
+            </p>
+            <div class="flex items-center gap-4 mt-5 md:mt-8">
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/next.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/go.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/kubernetes.svg" alt="" />
+              </div>
+            </div>
+            <div class="inline-block mt-8">
+              <a
+                href="https://carrol-dash.online-assessment.co.id"
+                target="_blank"
+                class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
+              >
+                View Project
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14.0035 7.4083L5.41176 16L4 14.5882L12.5917 5.99654H5.01905V4H16V14.981H14.0035V7.4083Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/carrol.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -128,7 +233,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/eclip.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/eclip.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -137,24 +244,101 @@ export default {
           data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
-            <p class="text-[#453DB1] text-[22px] font-bold">QRIS Banking System</p>
-            <a class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
-              Allobank
+            <p class="text-[#453DB1] text-[22px] font-bold">Employee Assessment Application</p>
+            <a
+              href="https://app.employee-experience.id"
+              target="_blank"
+              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
+            >
+              Employee Experience (EMX)
             </a>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
-              The user's Allo Bank mobile app now features the QRIS functionality. This enables them to make quick and
-              secure payments at any merchant in Indonesia displaying the QRIS logo. By eliminating the need for cash or
-              physical contact, the app offers a convenient and contactless payment method.
+              This application is useful for assessing employee performance and engagement. It provides a platform for collecting feedback and tracking progress over time. Employee assessment is carried out by answering several questions via chat in the application which will be assessed for each answer point.
             </p>
-            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Golang (Backend)</p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NextJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/next.svg" alt="" />
+              </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/go.svg" alt="" />
               </div>
             </div>
+            <div class="inline-block mt-8">
+              <a
+                href="https://app.employee-experience.id"
+                target="_blank"
+                class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
+              >
+                View Project
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14.0035 7.4083L5.41176 16L4 14.5882L12.5917 5.99654H5.01905V4H16V14.981H14.0035V7.4083Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/allobank.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/emx.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+            <p class="text-[#453DB1] text-[22px] font-bold">Outfit Planner and Annotation WebApp</p>
+            <a
+              href="https://www.spiffify.app"
+              target="_blank"
+              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
+            >
+              Spiffify
+            </a>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">
+              Spiffify helps users curate stylish looks by suggesting outfits based on their existing wardrobe. This
+              innovative app doesn't just stop at outfit suggestions; it empowers users to annotate and label individual
+              items, creating a personalized fashion catalog within the app. Spiffify streamlines the decision-making
+              process for daily attire, taking the guesswork out of what to wear and allowing users to express their
+              unique style with ease.
+            </p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: VueJS (Frontend), ExpressJS (Backend)</p>
+            <div class="flex items-center gap-4 mt-5 md:mt-8">
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/vue.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/node.svg" alt="" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/flutter.svg" alt="" />
+              </div>
+            </div>
+            <div class="inline-block mt-8">
+              <a
+                href="https://play.google.com/store/apps/details?id=app.spiffify.spiffify_app&hl=en"
+                target="_blank"
+                class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
+              >
+                Download App
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M14.0035 7.4083L5.41176 16L4 14.5882L12.5917 5.99654H5.01905V4H16V14.981H14.0035V7.4083Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/spiffify.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -165,7 +349,7 @@ export default {
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">E-Commerce WebApp</p>
             <a
-              href="https://crystalsea.id"
+              href="https://crystalsea.sg"
               target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5"
             >
@@ -186,7 +370,7 @@ export default {
             </div>
             <div class="inline-block mt-8">
               <a
-                href="https://crystalsea.id"
+                href="https://crystalsea.sg"
                 target="_blank"
                 class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark"
               >
@@ -201,7 +385,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/crystalsea.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/crystalsea.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -248,7 +434,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/faxtor.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/faxtor.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -275,7 +463,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/ubs.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/ubs.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -301,7 +491,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/teraa.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/teraa.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -353,7 +545,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/mastermine.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/mastermine.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -362,7 +556,7 @@ export default {
           data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
-            <p class="text-purple text-[22px] font-bold">Inventory Management</p>
+            <p class="text-[#453DB1] text-[22px] font-bold">Inventory Management</p>
             <a
               href="https://infinity88.id"
               target="_blank"
@@ -407,7 +601,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/singgalang.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/singgalang.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -416,7 +612,7 @@ export default {
           data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
-            <p class="text-purple text-[22px] font-bold">3D Object Web Map</p>
+            <p class="text-[#453DB1] text-[22px] font-bold">3D Object Web Map</p>
             <a
               href="https://bhumi.atrbpn.go.id/peta"
               target="_blank"
@@ -455,7 +651,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/jica.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/jica.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
         <div
@@ -464,7 +662,7 @@ export default {
           data-aos-duration="1000"
         >
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
-            <p class="text-warning text-[22px] font-bold">Backoffice System</p>
+            <p class="text-[#453DB1] text-[22px] font-bold">Backoffice System</p>
             <a
               href="https://kifisika.finder.ac.id/"
               target="_blank"
@@ -479,7 +677,10 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
               Tech Stack: Python Django (Backend) and HTML, CSS and JS (Frontend)
             </p>
-            <div class="flex items-center gap-4 mt-5 md:mt-8">
+            <div class="flex items-center g mt-5 md:mt-8">
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/django.svg" alt="" />
+              </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
                 <img src="@/assets/images/tech/python.svg" alt="" />
               </div>
@@ -504,7 +705,9 @@ export default {
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
-            <img src="@/assets/images/work/kifisika.png" class="object-contain w-full h-full mx-auto" alt="" />
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img src="@/assets/images/work/kifisika.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
           </div>
         </div>
       </div>
