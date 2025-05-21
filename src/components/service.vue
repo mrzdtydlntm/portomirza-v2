@@ -42,12 +42,11 @@ export default {
           data-aos-duration="1000"
         >
           <div>
-            <img src="@/assets/images/services-1.svg" alt="" />
+            <img src="@/assets/images/services-1.svg" alt="Backend Developer Icon" />
           </div>
           <h3 class="text-xl font-semibold">Backend Developer</h3>
           <p class="text-gray">
-            It is a fact that an application needs logic in it so that every user treatment can have a good experience.
-            Here I have mastered the Golang and ExpressJS programming languages in making the application logic.
+            Developing robust application logic is essential to ensure seamless user experiences. I specialize in backend development, leveraging expertise in programming languages such as Go and ExpressJS to build efficient and scalable application logic. Additionally, I focus on optimizing database queries to ensure high availability and performance, enabling the application to handle increasing data volumes effectively.
           </p>
         </div>
         <div
@@ -56,13 +55,11 @@ export default {
           data-aos-duration="1000"
         >
           <div>
-            <img src="@/assets/images/services-2.svg" alt="" />
+            <img src="@/assets/images/services-2.svg" alt="DevOps Engineer Icon" />
           </div>
           <h3 class="text-xl font-semibold">DevOps Engineer</h3>
           <p class="text-gray">
-            An application needs to be deployed so that all users can use the application we created. In this case,
-            several deployment techniques such as simple deployment (using NGINX and not containerized), containerized
-            (using docker) and even using kubernetes and terraform.
+            Ensuring applications are deployed effectively is critical for user accessibility. My expertise includes various deployment strategies, ranging from traditional setups with NGINX to containerized solutions using Docker, as well as advanced orchestration with Kubernetes and infrastructure automation using Terraform.
           </p>
         </div>
         <div
@@ -71,13 +68,11 @@ export default {
           data-aos-duration="1000"
         >
           <div>
-            <img src="@/assets/images/services-3.svg" alt="" />
+            <img src="@/assets/images/services-3.svg" alt="System Analyst Icon" />
           </div>
           <h3 class="text-xl font-semibold">System Analyst</h3>
           <p class="text-gray">
-            It should be known that every application needs planning in its creation such as creating a system
-            architecture, infrastructure management and even determining the techstack to be used. All of this can be
-            made into a pictorial documentation in order to describe the future needs of the application.
+            Effective application development begins with meticulous planning. I often focus on designing system architectures, managing infrastructure, and selecting appropriate technology stacks. These processes are documented visually to provide a clear roadmap for future application requirements. Additionally, I carefully consider designing the infrastructure based on budget constraints to ensure it delivers optimal value while keeping billing costs reasonable.
           </p>
         </div>
       </div>

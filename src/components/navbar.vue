@@ -51,21 +51,30 @@ export default {
                   >Services</a
                 >
               </li>
-              <!-- <li class="work">
+              <li class="education">
+                <a v-smooth-scroll href="#education" class="inline-block py-2 font-semibold leading-6 duration-300"
+                  >Education & Experience</a
+                >
+              </li>
+              <li class="work">
                 <a v-smooth-scroll href="#work" class="inline-block py-2 font-semibold leading-6 duration-300"
                   >Projects</a
                 >
-              </li> -->
-              <li class="contact">
-                <a v-smooth-scroll href="#contact" class="inline-block py-2 font-semibold leading-6 duration-300"
-                  >Let's Chat</a
-                >
               </li>
+              <!-- <li class="docs">
+                <a
+                  v-smooth-scroll
+                  target="_blank"
+                  href="https://docs.mrzdtydlntm.my.id"
+                  class="inline-block py-2 font-semibold leading-6 duration-300"
+                  >My Docs</a
+                >
+              </li> -->
               <a
-                target="_blank"
-                href="https://docs.mrzdtydlntm.my.id"
+                v-smooth-scroll
+                href="#contact"
                 class="inline-block px-5 py-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
-                >My Docs</a
+                >Let's Chat</a
               >
             </ul>
           </div>
@@ -101,7 +110,16 @@ export default {
                 >Services</a
               >
             </li>
-            <!-- <li class="work">
+            <li class="education">
+              <a
+                @click="isMobileMenuOpen = false"
+                v-smooth-scroll
+                href="#education"
+                class="inline-block py-2 font-semibold leading-6 duration-300"
+                >Education & Experience</a
+              >
+            </li>
+            <li class="work">
               <a
                 @click="isMobileMenuOpen = false"
                 v-smooth-scroll
@@ -109,8 +127,8 @@ export default {
                 class="inline-block py-2 font-semibold leading-6 duration-300"
                 >Projects</a
               >
-            </li> -->
-            <li class="docs">
+            </li>
+            <!-- <li class="docs">
               <a
                 @click="isMobileMenuOpen = false"
                 v-smooth-scroll
@@ -118,13 +136,13 @@ export default {
                 class="inline-block py-2 font-semibold leading-6 duration-300"
                 >Let's Chat</a
               >
-            </li>
+            </li> -->
             <a
               @click="isMobileMenuOpen = false"
-              href="https://docs.mrzdtydlntm.my.id"
-              target="_blank"
+              v-smooth-scroll
+              href="#contact"
               class="inline-block px-5 py-3 mt-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
-              >My Docs</a
+              >Let's Chat</a
             >
           </ul>
         </div>

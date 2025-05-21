@@ -9,7 +9,7 @@ export default {
 
 <template>
   <!-- Start Education & Experiance -->
-  <section class="py-16 md:py-24">
+  <section class="py-16 md:py-24" id="education">
     <div class="container">
       <div class="grid grid-cols-1" data-aos="fade-up" data-aos-duration="1000">
         <div class="text-center">
@@ -243,13 +243,11 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="text-xl font-semibold">TechOps Manager</span>
+                        <span class="text-xl font-semibold">Assistant Vice President of Engineer</span>
                         <span class="font-semibold text-purple">2024 - now</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        As a techops manager, I am responsible for creating system architecture, dissecting the tech
-                        stack used, and creating system flow while still working as a backend developer and devops
-                        engineer.
+                        As an AVP Engineer, I am responsible for managing and maintaining engineering manpower resources, overseeing project readiness for development by engineering teams, and resolving application issues.
                       </p>
                       <p class="mt-6 font-semibold">PLABS.ID - Bandung, West Java 40152</p>
                       <div class="flex flex-wrap items-center gap-5 mt-7">
@@ -342,13 +340,10 @@ export default {
                     <div class="mt-7">
                       <div class="flex flex-col justify-end gap-4 lg:flex-row lg:items-center lg:gap-12">
                         <span class="font-semibold text-warning">2021 - 2024</span>
-                        <span class="text-xl font-semibold">Mid Software Engineer</span>
+                        <span class="text-xl font-semibold">Software Engineer</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        As a software engineer, I have roles in backend developer and devops engineer. In the backend
-                        developer role, I create the application logic and data storage needed. Likewise, in the devops
-                        engineer role, I am responsible for deploying the application so that it can be accessed by the
-                        public.
+                        As a Senior Software Engineer, I specialize in Backend and DevOps engineering. I'm responsible to design and implement scalable backend systems, optimize application performance, manage CI/CD pipelines, ensure system reliability, and collaborate with cross-functional teams to deliver high-quality software solutions.
                       </p>
                       <p class="mt-6 font-semibold">PLABS.ID - Bandung, West Java 40152</p>
                       <div class="flex flex-wrap items-center gap-5 mt-7 md:justify-end">
