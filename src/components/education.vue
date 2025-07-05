@@ -244,7 +244,7 @@ export default {
                     <div class="mt-7">
                       <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
                         <span class="text-xl font-semibold">Assistant Vice President of Engineer</span>
-                        <span class="font-semibold text-purple">2024 - now</span>
+                        <span class="font-semibold text-purple">2024 - 2025</span>
                       </div>
                       <p class="mt-5 text-gray">
                         As an AVP Engineer, I am responsible for managing and maintaining engineering manpower resources, overseeing project readiness for development by engineering teams, and resolving application issues.
