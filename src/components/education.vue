@@ -141,6 +141,8 @@ export default {
             </div>
           </div>
 
+          <br/><br/>
+
           <!-- Title Img -->
           <div class="relative hidden w-full md:block">
             <div class="absolute w-full ltr:left-1 rtl:right-1 -top-36">
