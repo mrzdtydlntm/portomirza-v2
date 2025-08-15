@@ -40,6 +40,8 @@ export default {
             class="block shrink-0 bg-[url('../images/dot-line.svg')] dark:bg-[url('../images/dot-line-dark.svg')] w-[2px] bg-center bg-cover absolute h-full ltr:left-0 rtl:right-0 ltr:md:left-1/2 rtl:md:right-1/2 transform ltr:md:-translate-x-1/2 rtl:md:translate-x-1/2">
           </div>
 
+          <br/><br/>
+
           <div class="relative">
             <div class="flex flex-col items-center md:flex-row">
               <div class="flex items-center justify-start w-full mx-auto">
@@ -146,6 +148,8 @@ export default {
               <img src="@/assets/images/edandex-dark.png" class="hidden mx-auto dark:block" alt="" />
             </div>
           </div>
+
+          <br/><br/>
 
           <div class="relative">
             <div class="flex flex-col items-center md:flex-row">
