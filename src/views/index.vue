@@ -78,7 +78,7 @@ export default {
                   fool all of the people all of the time. -Abraham Lincoln
                 </p>
                 <div class="flex flex-wrap gap-5 mt-10">
-                  <a href="https://calendar.app.google/3YD6cLPi4VdLWFYL6" target="_blank" class="flex items-center gap-2.5 btn btn-purple">
+                  <a href="https://calendar.app.google/3YD6cLPi4VdLWFYL6" target="_blank" class="flex items-center gap-2.5 btn btn-purple rounded-full">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         opacity="0.2"
@@ -95,7 +95,7 @@ export default {
                   <a
                     href="https://drive.google.com/file/d/1ZiGINIJx16nrwvC33csx8SNSJ_Ofqqj2/view?usp=sharing"
                     target="_blank"
-                    class="flex items-center gap-2.5 btn btn-outline-white"
+                    class="flex items-center gap-2.5 btn btn-outline-white rounded-full"
                   >
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
