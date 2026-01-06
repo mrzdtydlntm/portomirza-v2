@@ -6,3 +6,4 @@
   
   # Adjust CSP based on your actual resources
   Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https:; connect-src 'self'
+  Strict-Transport-Security: max-age=31536000
