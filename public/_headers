@@ -5,5 +5,5 @@
   Referrer-Policy: strict-origin-when-cross-origin
   
   # Adjust CSP based on your actual resources
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https:; connect-src 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' https://www.googletagmanager.com 'sha256-/chh8MfOjjC2xRTAEki32yTLSdlVIkIrm5tzXMrJ06k=' 'sha256-cNj7/m1NOqpioD8QzDaLUWGWN3Oxg1za6cIenizYaXE='; style-src 'self' 'unsafe-inline'; font-src 'self' data:; img-src 'self' data: https:; connect-src 'self'
   Strict-Transport-Security: max-age=31536000
