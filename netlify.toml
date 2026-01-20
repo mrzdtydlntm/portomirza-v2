@@ -1,0 +1,7 @@
+[build]
+  command = "pnpm run build"
+  publish = "dist"
+
+[configuration]
+  # Omit these specific keys from secrets scanning because they are public client-side keys
+  SECRETS_SCAN_OMIT_KEYS = ["VUE_APP_GOOGLE_ANALYTICS_KEY", "VUE_APP_WEB3FORMS_ACCESS_KEY"]
