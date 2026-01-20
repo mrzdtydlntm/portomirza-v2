@@ -9,7 +9,6 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
     "alpinejs": "^3.15.4",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
@@ -62,7 +61,7 @@
   ],
   "engines": {
     "pnpm": ">=8.10.0",
-    "node": ">=20.0.0 <21.0.0"
+    "node": ">=21.0.0 <=24.13.0"
   },
   "pnpm": {
     "overrides": {
