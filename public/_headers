@@ -5,5 +5,4 @@
   Referrer-Policy: strict-origin-when-cross-origin
 
   # Adjust CSP based on your actual resources
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-eval' https://www.googletagmanager.com 'sha256-/chh8MfOjjC2xRTAEki32yTLSdlVIkIrm5tzXMrJ06k=' 'sha256-cNj7/m1NOqpioD8QzDaLUWGWN3Oxg1za6cIenizYaXE=' 'sha256-F3vUEY+ZqtVt+zM9RvIJsbeSJ17ctmb9mYAx4o3Pb8M='; style-src 'self' 'unsafe-inline' https://unicons.iconscout.com https://fonts.googleapis.com; font-src 'self' data: https://unicons.iconscout.com https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://api.web3forms.com
   Strict-Transport-Security: max-age=31536000
