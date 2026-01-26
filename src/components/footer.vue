@@ -101,7 +101,7 @@ export default {
             <h3 class="font-bold text-3xl/normal lg:text-[40px]/normal max-w-xl">
               Have a project in mind? Let’s get to work.
             </h3>
-            <div class="inline-block mt-8 md:mt-14" x-data="{ isOpen: false }">
+            <div class="inline-block mt-8 md:mt-14">
               <button type="button" class="flex items-center gap-2.5 btn btn-purple" @click="isOpen = true">
                 Say Hello
                 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,9 +111,8 @@ export default {
               </button>
               <div
                 class="fixed text-dark dark:text-white inset-0 bg-dark/90 backdrop-blur-sm z-[99999] overflow-y-auto hidden"
-                x-show="isOpen" @click="handleClick" :class="isOpen && '!block'">
-                <div class="flex items-center justify-center min-h-screen px-4" x-show="isOpen" x-transition
-                  x-transition.duration.300>
+                v-show="isOpen" @click="handleClick" :class="isOpen && '!block'">
+                <div class="flex items-center justify-center min-h-screen px-4" v-show="isOpen">
                   <div class="relative w-full max-w-3xl my-8 overflow-hidden bg-white rounded-lg px-7 py-14 md:p-14">
                     <button type="button"
                       class="absolute flex items-center justify-center w-10 h-10 rounded-md ltr:right-4 rtl:left-4 top-4 ltr:md:right-5 rtl:md:left-5 md:top-5 bg-purple/10 text-purple"
@@ -163,7 +162,8 @@ export default {
           </div>
           <div>
             <img src="@/assets/images/cartoon-me.png"
-              class="mx-auto w-48 h-48 rounded-full shadow-lg border-4 border-white" alt="Cartoon of me" />
+              class="mx-auto w-48 h-48 rounded-full shadow-lg border-4 border-white" alt="Cartoon of me"
+              loading="lazy" />
           </div>
         </div>
       </div>

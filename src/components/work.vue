@@ -44,10 +44,10 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Next JS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/next.svg" alt="" />
+                <img src="@/assets/images/tech/next.svg" alt="" loading="lazy" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img src="@/assets/images/tech/go.svg" alt="" loading="lazy" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -63,7 +63,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/icdr.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/icdr.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -83,13 +84,13 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Next JS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/next.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/next.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/node.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/node.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/strapi.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/strapi.svg" alt="" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -105,7 +106,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/avivid.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/avivid.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -127,13 +129,13 @@ export default {
             </p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/next.svg" alt="" />
+                <img src="@/assets/images/tech/next.svg" alt="" loading="lazy" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img src="@/assets/images/tech/go.svg" alt="" loading="lazy" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/kubernetes.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/kubernetes.svg" alt="" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -149,7 +151,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/carrol.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/carrol.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -162,22 +165,24 @@ export default {
               KataHukum
             </a>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
-                KataHukum is a legal technology platform designed to simplify access to legal information and services.
-                The application presents a comprehensive collection of legal articles, making it easier for users to find and understand relevant laws.
-                It features a user-friendly search engine that accommodates typos and leverages text similarity to help users locate articles by title efficiently.
+              KataHukum is a legal technology platform designed to simplify access to legal information and services.
+              The application presents a comprehensive collection of legal articles, making it easier for users to find
+              and understand relevant laws.
+              It features a user-friendly search engine that accommodates typos and leverages text similarity to help
+              users locate articles by title efficiently.
             </p>
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">
               Tech Stack: Next JS (Frontend), Golang (Backend), Kubernetes (DevOps)
             </p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/next.svg" alt="" />
+                <img src="@/assets/images/tech/next.svg" alt="" loading="lazy" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img src="@/assets/images/tech/go.svg" alt="" loading="lazy" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/kubernetes.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/kubernetes.svg" alt="" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -193,7 +198,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/katahukum.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/katahukum.png"
+                class="max-w-full max-h-full object-contain p-6" alt="" />
             </div>
           </div>
         </div>
@@ -213,10 +219,10 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NextJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/next.svg" alt="" />
+                <img src="@/assets/images/tech/next.svg" alt="" loading="lazy" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img src="@/assets/images/tech/go.svg" alt="" loading="lazy" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -232,7 +238,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/eclip.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/eclip.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -252,10 +259,10 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NextJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/next.svg" alt="" />
+                <img src="@/assets/images/tech/next.svg" alt="" loading="lazy" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img src="@/assets/images/tech/go.svg" alt="" loading="lazy" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -271,7 +278,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/emx.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/emx.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -293,13 +301,13 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: VueJS (Frontend), ExpressJS (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/vue.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/vue.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/node.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/node.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/flutter.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/flutter.svg" alt="" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -315,7 +323,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/spiffify.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/spiffify.png"
+                class="max-w-full max-h-full object-contain p-6" alt="" />
             </div>
           </div>
         </div>
@@ -334,13 +343,13 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NextJS (Frontend), ExpressJS (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/next.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/next.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/vue.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/vue.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/node.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/node.svg" alt="" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -356,7 +365,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/crystalsea.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/crystalsea.png"
+                class="max-w-full max-h-full object-contain p-6" alt="" />
             </div>
           </div>
         </div>
@@ -375,10 +385,10 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NextJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/next.svg" alt="" />
+                <img src="@/assets/images/tech/next.svg" alt="" loading="lazy" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img src="@/assets/images/tech/go.svg" alt="" loading="lazy" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -394,7 +404,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/faxtor.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/faxtor.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -411,16 +422,17 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NuxtJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/nuxt.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/nuxt.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/go.svg" alt="" />
               </div>
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/ubs.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/ubs.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -436,16 +448,17 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: NuxtJS (Frontend), Golang (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/nuxt.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/nuxt.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/go.svg" alt="" />
               </div>
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/teraa.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/teraa.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -466,19 +479,20 @@ export default {
             </p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/nuxt.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/nuxt.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/go.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/kafka.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/kafka.svg" alt="" />
               </div>
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/mastermine.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/mastermine.png"
+                class="max-w-full max-h-full object-contain p-6" alt="" />
             </div>
           </div>
         </div>
@@ -501,13 +515,13 @@ export default {
             </p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/vue.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/vue.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/laravel.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/laravel.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/go.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/go.svg" alt="" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -523,7 +537,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/singgalang.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/singgalang.png"
+                class="max-w-full max-h-full object-contain p-6" alt="" />
             </div>
           </div>
         </div>
@@ -543,10 +558,10 @@ export default {
             <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: ReactJS (Frontend) and ExpressJS (Backend)</p>
             <div class="flex items-center gap-4 mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/react.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/react.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/node.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/node.svg" alt="" />
               </div>
             </div>
             <div class="inline-block mt-8">
@@ -562,7 +577,8 @@ export default {
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/jica.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/jica.png" class="max-w-full max-h-full object-contain p-6"
+                alt="" />
             </div>
           </div>
         </div>
@@ -583,19 +599,20 @@ export default {
             </p>
             <div class="flex items-center g mt-5 md:mt-8">
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/django.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/django.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/python.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/python.svg" alt="" />
               </div>
               <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
-                <img src="@/assets/images/tech/html.svg" alt="" />
+                <img loading="lazy" src="@/assets/images/tech/html.svg" alt="" />
               </div>
             </div>
           </div>
           <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
             <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
-              <img src="@/assets/images/work/kifisika.png" class="max-w-full max-h-full object-contain p-6" alt="" />
+              <img loading="lazy" src="@/assets/images/work/kifisika.png"
+                class="max-w-full max-h-full object-contain p-6" alt="" />
             </div>
           </div>
         </div>

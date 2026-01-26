@@ -15,16 +15,14 @@ export default {
 </script>
 
 <template>
-  <BNav
-    class="fixed top-0 z-50 w-full border-b-2 mobile-menu-bg py-7 bg-dark mobile-nav stickyadd border-white/10"
-    id="navbar"
-  >
+  <BNav class="fixed top-0 z-50 w-full border-b-2 mobile-menu-bg py-7 bg-dark mobile-nav stickyadd border-white/10"
+    id="navbar">
     <div class="container">
       <div class="flex items-center justify-between md:block">
         <div class="flex items-center justify-between w-full">
           <div class="relative z-50">
             <a href="/">
-              <img src="@/assets/images/logo/mrz-logo.png" alt="" class="h-10" />
+              <img src="@/assets/images/logo/mrz-logo.png" alt="" class="h-10" width="220" height="123" />
             </a>
           </div>
           <div class="flex items-center gap-5 lg:hidden">
@@ -42,24 +40,20 @@ export default {
                 <a v-smooth-scroll href="#home" class="inline-block py-2 font-semibold leading-6 duration-300">Home</a>
               </li>
               <li class="about">
-                <a v-smooth-scroll href="#about" class="inline-block py-2 font-semibold leading-6 duration-300"
-                  >About Me</a
-                >
+                <a v-smooth-scroll href="#about" class="inline-block py-2 font-semibold leading-6 duration-300">About
+                  Me</a>
               </li>
               <li class="services">
-                <a v-smooth-scroll href="#services" class="inline-block py-2 font-semibold leading-6 duration-300"
-                  >Services</a
-                >
+                <a v-smooth-scroll href="#services"
+                  class="inline-block py-2 font-semibold leading-6 duration-300">Services</a>
               </li>
               <li class="education">
-                <a v-smooth-scroll href="#education" class="inline-block py-2 font-semibold leading-6 duration-300"
-                  >Education & Experience</a
-                >
+                <a v-smooth-scroll href="#education"
+                  class="inline-block py-2 font-semibold leading-6 duration-300">Education & Experience</a>
               </li>
               <li class="work">
-                <a v-smooth-scroll href="#work" class="inline-block py-2 font-semibold leading-6 duration-300"
-                  >Projects</a
-                >
+                <a v-smooth-scroll href="#work"
+                  class="inline-block py-2 font-semibold leading-6 duration-300">Projects</a>
               </li>
               <!-- <li class="docs">
                 <a
@@ -70,12 +64,9 @@ export default {
                   >My Docs</a
                 >
               </li> -->
-              <a
-                v-smooth-scroll
-                href="#contact"
-                class="inline-block px-5 py-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
-                >Let's Chat</a
-              >
+              <a v-smooth-scroll href="#contact"
+                class="inline-block px-5 py-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90">Let's
+                Chat</a>
             </ul>
           </div>
         </div>
@@ -84,49 +75,24 @@ export default {
         <div class="pt-5">
           <ul class="text-white">
             <li class="home active">
-              <a
-                @click="isMobileMenuOpen = false"
-                v-smooth-scroll
-                href="#home"
-                class="inline-block py-2 font-semibold leading-6 duration-300"
-                >Home</a
-              >
+              <a @click="isMobileMenuOpen = false" v-smooth-scroll href="#home"
+                class="inline-block py-2 font-semibold leading-6 duration-300">Home</a>
             </li>
             <li class="about">
-              <a
-                @click="isMobileMenuOpen = false"
-                v-smooth-scroll
-                href="#about"
-                class="inline-block py-2 font-semibold leading-6 duration-300"
-                >About Me</a
-              >
+              <a @click="isMobileMenuOpen = false" v-smooth-scroll href="#about"
+                class="inline-block py-2 font-semibold leading-6 duration-300">About Me</a>
             </li>
             <li class="services">
-              <a
-                @click="isMobileMenuOpen = false"
-                v-smooth-scroll
-                href="#services"
-                class="inline-block py-2 font-semibold leading-6 duration-300"
-                >Services</a
-              >
+              <a @click="isMobileMenuOpen = false" v-smooth-scroll href="#services"
+                class="inline-block py-2 font-semibold leading-6 duration-300">Services</a>
             </li>
             <li class="education">
-              <a
-                @click="isMobileMenuOpen = false"
-                v-smooth-scroll
-                href="#education"
-                class="inline-block py-2 font-semibold leading-6 duration-300"
-                >Education & Experience</a
-              >
+              <a @click="isMobileMenuOpen = false" v-smooth-scroll href="#education"
+                class="inline-block py-2 font-semibold leading-6 duration-300">Education & Experience</a>
             </li>
             <li class="work">
-              <a
-                @click="isMobileMenuOpen = false"
-                v-smooth-scroll
-                href="#work"
-                class="inline-block py-2 font-semibold leading-6 duration-300"
-                >Projects</a
-              >
+              <a @click="isMobileMenuOpen = false" v-smooth-scroll href="#work"
+                class="inline-block py-2 font-semibold leading-6 duration-300">Projects</a>
             </li>
             <!-- <li class="docs">
               <a
@@ -137,13 +103,9 @@ export default {
                 >Let's Chat</a
               >
             </li> -->
-            <a
-              @click="isMobileMenuOpen = false"
-              v-smooth-scroll
-              href="#contact"
-              class="inline-block px-5 py-3 mt-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90"
-              >Let's Chat</a
-            >
+            <a @click="isMobileMenuOpen = false" v-smooth-scroll href="#contact"
+              class="inline-block px-5 py-3 mt-3 font-semibold leading-none transition-all duration-300 bg-white border border-white text-dark hover:bg-white/90">Let's
+              Chat</a>
           </ul>
         </div>
       </div>
