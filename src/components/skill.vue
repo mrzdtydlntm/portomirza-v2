@@ -12,14 +12,12 @@ export default {
         <div class="text-center">
           <div class="inline-block">
             <p
-              class="bg-purple text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5"
-            >
+              class="bg-purple text-white text-sm font-semibold py-3 px-5 uppercase rounded-full flex items-center gap-2.5">
               <span>
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path
                     d="M4.33454 9.58362C5.35965 9.83993 6.16007 10.6403 6.41638 11.6655L7.37875 15.5149C7.45002 15.8 7.70616 16 8 16C8.29384 16 8.54998 15.8 8.62125 15.5149L9.58362 11.6655C9.83993 10.6403 10.6403 9.83993 11.6655 9.58362L15.5149 8.62125C15.8 8.54998 16 8.29384 16 8C16 7.70616 15.8 7.45002 15.5149 7.37875L11.6655 6.41638C10.6403 6.16007 9.83993 5.35965 9.58362 4.33454L8.62125 0.485071C8.54998 0.199992 8.29384 0 8 0C7.70616 0 7.45002 0.199991 7.37875 0.485071L6.41638 4.33454C6.16007 5.35965 5.35965 6.16007 4.33454 6.41638L0.485071 7.37875C0.199992 7.45002 0 7.70616 0 8C0 8.29384 0.199991 8.54998 0.485071 8.62125L4.33454 9.58362Z"
-                    fill="currentColor"
-                  />
+                    fill="currentColor" />
                 </svg>
               </span>
               Skills & Awards
@@ -33,32 +31,33 @@ export default {
         <div data-aos="fade-up" data-aos-duration="1000">
           <div class="flex flex-wrap items-start gap-7">
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/tech/go.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <img loading="lazy" src="@/assets/images/tech/go.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Go</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">90%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/tech/node.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <img loading="lazy" src="@/assets/images/tech/node.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">NodeJS</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">90%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/tech/docker.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <img loading="lazy" src="@/assets/images/tech/docker.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Docker</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">85%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/tech/kubernetes.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <img loading="lazy" src="@/assets/images/tech/kubernetes.svg" class="w-[30px] h-[30px] inline-block"
+                alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Kubernetes</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">85%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/tech/vue.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <img loading="lazy" src="@/assets/images/tech/vue.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">VueJS</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
             </div>
             <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
-              <img src="@/assets/images/tech/gcp.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <img loading="lazy" src="@/assets/images/tech/gcp.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Google Cloud Project</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
             </div>
@@ -67,16 +66,16 @@ export default {
         <!-- <div data-aos="fade-up" data-aos-duration="1000">
           <div class="flex-wrap items-center justify-around md:flex gap-7 space-y-7 md:space-y-0">
             <div>
-              <img src="@/assets/images/award-1.png" class="block mx-auto dark:hidden" alt="" />
-              <img src="@/assets/images/award-dark-1.png" class="hidden mx-auto dark:block" alt="" />
+              <img loading="lazy" src="@/assets/images/award-1.png" class="block mx-auto dark:hidden" alt="" />
+              <img loading="lazy" src="@/assets/images/award-dark-1.png" class="hidden mx-auto dark:block" alt="" />
             </div>
             <div>
-              <img src="@/assets/images/award-2.png" class="block mx-auto dark:hidden" alt="" />
-              <img src="@/assets/images/award-dark-2.png" class="hidden mx-auto dark:block" alt="" />
+              <img loading="lazy" src="@/assets/images/award-2.png" class="block mx-auto dark:hidden" alt="" />
+              <img loading="lazy" src="@/assets/images/award-dark-2.png" class="hidden mx-auto dark:block" alt="" />
             </div>
             <div>
-              <img src="@/assets/images/award-3.png" class="block mx-auto dark:hidden" alt="" />
-              <img src="@/assets/images/award-dark-3.png" class="hidden mx-auto dark:block" alt="" />
+              <img loading="lazy" src="@/assets/images/award-3.png" class="block mx-auto dark:hidden" alt="" />
+              <img loading="lazy" src="@/assets/images/award-dark-3.png" class="hidden mx-auto dark:block" alt="" />
             </div>
           </div>
         </div> -->

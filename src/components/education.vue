@@ -40,7 +40,7 @@ export default {
             class="block shrink-0 bg-[url('../images/dot-line.svg')] dark:bg-[url('../images/dot-line-dark.svg')] w-[2px] bg-center bg-cover absolute h-full ltr:left-0 rtl:right-0 ltr:md:left-1/2 rtl:md:right-1/2 transform ltr:md:-translate-x-1/2 rtl:md:translate-x-1/2">
           </div>
 
-          <br/><br/>
+          <br /><br />
 
           <div class="relative">
             <div class="flex flex-col items-center md:flex-row">
@@ -91,7 +91,7 @@ export default {
             </div>
           </div>
 
-          <br/><br/>
+          <br /><br />
 
           <div class="relative">
             <div class="flex flex-col items-center md:flex-row">
@@ -141,17 +141,17 @@ export default {
             </div>
           </div>
 
-          <br/><br/>
+          <br /><br />
 
           <!-- Title Img -->
           <div class="relative hidden w-full md:block">
             <div class="absolute w-full ltr:left-1 rtl:right-1 -top-36">
-              <img src="@/assets/images/edandex.png" class="mx-auto dark:hidden" alt="" />
-              <img src="@/assets/images/edandex-dark.png" class="hidden mx-auto dark:block" alt="" />
+              <img loading="lazy" src="@/assets/images/edandex.png" class="mx-auto dark:hidden" alt="" />
+              <img loading="lazy" src="@/assets/images/edandex-dark.png" class="hidden mx-auto dark:block" alt="" />
             </div>
           </div>
 
-          <br/><br/>
+          <br /><br />
 
           <div class="relative">
             <div class="flex flex-col items-center md:flex-row">
@@ -183,35 +183,36 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="text-xl font-semibold">DevOps Engineer</span>
+                        <span class="text-xl font-semibold">IT DevOps and Security Manager</span>
                         <span class="font-semibold text-purple">2025 - now</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        As a DevOps Engineer, I am responsible for managing and maintaining engineering manpower
-                        resources, overseeing project readiness for development by engineering teams, and resolving
-                        application issues.
+                        As an IT DevOps and Security Manager, I am responsible for managing and maintaining engineering
+                        manpower
+                        resources, overseeing project readiness for development by engineering teams, resolving
+                        application issues, and ensuring the security of the infrastructure.
                       </p>
-                      <p class="mt-6 font-semibold">IDE Asia (Unifiber Asianet) - Jakarta, DKI Jakarta 12940</p>
+                      <p class="mt-6 font-semibold">IDE Asia - Bandung, West Java 40152</p>
                       <div class="flex flex-wrap items-center gap-5 mt-7">
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/jenkins.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/jenkins.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/github.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/github.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/opensearch.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/opensearch.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/logstash.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/logstash.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/grafana.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/grafana.svg" alt="" />
                         </div>
                       </div>
                     </div>
@@ -224,8 +225,8 @@ export default {
             </div>
           </div>
 
-          <br/><br/>
-          
+          <br /><br />
+
           <div class="relative">
             <div class="flex flex-col items-center md:flex-row">
               <div class="flex items-center justify-end w-full mx-auto">
@@ -268,23 +269,23 @@ export default {
                       <div class="flex flex-wrap items-center gap-5 mt-7">
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/kubernetes.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/kubernetes.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/go.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/go.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/node.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/node.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/docker.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/docker.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/terraform.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/terraform.svg" alt="" />
                         </div>
                       </div>
                     </div>
@@ -297,7 +298,7 @@ export default {
             </div>
           </div>
 
-          <br/><br/>
+          <br /><br />
 
           <div class="relative">
             <div class="flex flex-col items-center md:flex-row">
@@ -342,19 +343,19 @@ export default {
                       <div class="flex flex-wrap items-center gap-5 mt-7">
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/go.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/go.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/node.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/node.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/vue.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/vue.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/nginx.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/nginx.svg" alt="" />
                         </div>
                       </div>
                     </div>
@@ -367,7 +368,7 @@ export default {
             </div>
           </div>
 
-          <br/><br/>
+          <br /><br />
 
           <div class="relative">
             <div class="flex flex-col items-center md:flex-row">
@@ -410,11 +411,11 @@ export default {
                       <div class="flex flex-wrap items-center gap-5 mt-7">
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/nginx.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/nginx.svg" alt="" />
                         </div>
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
-                          <img src="@/assets/images/tech/docker.svg" alt="" />
+                          <img loading="lazy" src="@/assets/images/tech/docker.svg" alt="" />
                         </div>
                       </div>
                     </div>
