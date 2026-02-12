@@ -183,15 +183,16 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
-                        <span class="text-xl font-semibold">DevOps Engineer</span>
+                        <span class="text-xl font-semibold">IT DevOps and Security Manager</span>
                         <span class="font-semibold text-purple">2025 - now</span>
                       </div>
                       <p class="mt-5 text-gray">
-                        As a DevOps Engineer, I am responsible for managing and maintaining engineering manpower
-                        resources, overseeing project readiness for development by engineering teams, and resolving
-                        application issues.
+                        As an IT DevOps and Security Manager, I am responsible for managing and maintaining engineering
+                        manpower
+                        resources, overseeing project readiness for development by engineering teams, resolving
+                        application issues, and ensuring the security of the infrastructure.
                       </p>
-                      <p class="mt-6 font-semibold">IDE Asia (Unifiber Asianet) - Jakarta, DKI Jakarta 12940</p>
+                      <p class="mt-6 font-semibold">IDE Asia - Bandung, West Java 40152</p>
                       <div class="flex flex-wrap items-center gap-5 mt-7">
                         <div
                           class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
