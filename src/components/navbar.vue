@@ -22,7 +22,7 @@ export default {
         <div class="flex items-center justify-between w-full">
           <div class="relative z-50">
             <a href="/">
-              <img src="@/assets/images/logo/mrz-logo.png" alt="" class="h-10" width="220" height="123" />
+              <img src="@/assets/images/logo/mrzdtydlntm_logo.png" alt="" class="h-10" width="150" height="70" />
             </a>
           </div>
           <div class="flex items-center gap-5 lg:hidden">

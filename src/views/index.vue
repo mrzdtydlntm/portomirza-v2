@@ -107,21 +107,21 @@ export default {
                   <div class="space-y-3 text-center">
                     <p class="text-2xl font-semibold" data-vanilla-counter data-start-at="0" data-end-at="180"
                       data-time="1000" data-delay="0" data-format="{}+">
-                      <count-to :startVal="0" :endVal="15" :duration="5500"></count-to>+
+                      <count-to :startVal="0" :endVal="20" :duration="5500"></count-to>+
                     </p>
                     <p class="text-gray">Clients</p>
                   </div>
                   <div class="space-y-3 text-center">
                     <p class="text-2xl font-semibold" data-vanilla-counter data-start-at="0" data-end-at="590"
                       data-time="1000" data-delay="0" data-format="{}+">
-                      <count-to :startVal="0" :endVal="30" :duration="5500"></count-to>+
+                      <count-to :startVal="0" :endVal="35" :duration="5500"></count-to>+
                     </p>
                     <p class="text-gray">Project Done</p>
                   </div>
                   <div class="space-y-3 text-center">
                     <p class="text-2xl font-semibold" data-vanilla-counter data-start-at="0" data-end-at="12"
                       data-time="1000" data-delay="0" data-format="{}+">
-                      <count-to :startVal="0" :endVal="4" :duration="3000"></count-to>+
+                      <count-to :startVal="0" :endVal="5" :duration="3000"></count-to>+
                     </p>
                     <p class="text-gray">Years Experience</p>
                   </div>
@@ -167,7 +167,7 @@ export default {
             <div class="mt-7">
               <h2 class="font-semibold text-[26px]/normal">Hi! I'm Mirza Aditya Deliantama</h2>
               <p class="mt-6 text-gray">
-                Passionate about technology, especially in software engineering. Experienced a lot during these 4+ years
+                Passionate about technology, especially in software engineering. Experienced a lot during these 5+ years
                 as a software engineer, especially being a Backend and DevOps engineer. Mastering programming with
                 Golang and ExpressJS languages, and often handling application deployments using Docker, Kubernetes, and
                 Terraform.
@@ -207,7 +207,7 @@ export default {
                   </a>
                 </li>
                 <li class="shrink-0">
-                  <a href="https://www.instagram.com/mrzdtydlntm/" target="_blank">
+                  <a href="https://www.instagram.com/hoyitsmir/" target="_blank">
                     <img src="@/assets/images/social/instagram-black.svg" alt="" style="height: 24px; width: 24px" />
                   </a>
                 </li>
