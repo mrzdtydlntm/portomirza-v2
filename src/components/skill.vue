@@ -20,45 +20,68 @@ export default {
                     fill="currentColor" />
                 </svg>
               </span>
-              Skills & Awards
+              Skills
             </p>
           </div>
-          <h2 class="font-semibold text-[26px]/normal mt-7">Masterful Talents and Certificates</h2>
-          <p class="mt-5 text-gray max-w-[708px] mx-auto">Showcase all the skills and awards that i got</p>
+          <h2 class="font-semibold text-[26px]/normal mt-7">Technical Skills</h2>
+          <p class="mt-5 text-gray max-w-[708px] mx-auto">Showcase all the skills and services I used</p>
         </div>
       </div>
       <div class="items-center grid-cols-1 gap-10 md:grid-cols-2 md:gap-14 mt-14">
         <div data-aos="fade-up" data-aos-duration="1000">
-          <div class="flex flex-wrap items-start gap-7">
-            <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
+          <div class="skills-grid gap-7">
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img loading="lazy" src="@/assets/images/tech/go.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Go</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">90%</p> -->
             </div>
-            <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img loading="lazy" src="@/assets/images/tech/node.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">NodeJS</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">90%</p> -->
             </div>
-            <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img loading="lazy" src="@/assets/images/tech/docker.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Docker</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">85%</p> -->
             </div>
-            <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img loading="lazy" src="@/assets/images/tech/kubernetes.svg" class="w-[30px] h-[30px] inline-block"
                 alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Kubernetes</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">85%</p> -->
             </div>
-            <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img loading="lazy" src="@/assets/images/tech/vue.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">VueJS</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
             </div>
-            <div class="flex-1 px-5 text-center border-2 rounded-full border-gray/20 py-7">
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
               <img loading="lazy" src="@/assets/images/tech/gcp.svg" class="w-[30px] h-[30px] inline-block" alt="" />
               <p class="mt-3 text-sm font-semibold whitespace-nowrap">Google Cloud Project</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
+            </div>
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
+              <img loading="lazy" src="@/assets/images/tech/aws.svg" class="w-[30px] h-[30px] inline-block" alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Amazon Web Services</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
+            </div>
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
+              <img loading="lazy" src="@/assets/images/tech/proxmox.svg" class="w-[30px] h-[30px] inline-block"
+                alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Proxmox</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
+            </div>
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
+              <img loading="lazy" src="@/assets/images/tech/terraform.svg" class="w-[30px] h-[30px] inline-block"
+                alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Terraform</p>
+              <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
+            </div>
+            <div class="px-5 text-center border-2 rounded-full border-gray/20 py-7">
+              <img loading="lazy" src="@/assets/images/tech/ansible.svg" class="w-[30px] h-[30px] inline-block"
+                alt="" />
+              <p class="mt-3 text-sm font-semibold whitespace-nowrap">Ansible</p>
               <!-- <p class="mt-2 text-sm font-semibold text-gray">75%</p> -->
             </div>
           </div>
@@ -84,3 +107,28 @@ export default {
   </section>
   <!-- End Skill & Awards -->
 </template>
+
+<style scoped>
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.75rem;
+}
+
+.skills-grid>div {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .skills-grid>div {
+    width: calc(33.333% - 1.167rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .skills-grid>div {
+    width: calc(25% - 1.3125rem);
+  }
+}
+</style>

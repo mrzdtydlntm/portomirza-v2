@@ -125,9 +125,9 @@ export default {
                     </button>
                     <div class="max-w-[480px]">
                       <h3 class="text-2xl font-bold text-dark md:text-3xl/normal">
-                        Got Ideas? We've got the skills. Let's team up.
+                        Got Ideas? I've got the skills. Let's team up.
                       </h3>
-                      <p class="mt-5 text-gray">Tell us more about yourself and what you're got in mind.</p>
+                      <p class="mt-5 text-gray">Tell me more about your idea and what you've got in mind.</p>
                     </div>
                     <form ref="form" @submit.prevent="sendEmail" class="mt-8 md:mt-12">
                       <div class="grid grid-cols-1 gap-5 md:grid-cols-2">
