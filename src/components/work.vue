@@ -31,6 +31,46 @@ export default {
         <div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
           data-aos="fade-up" data-aos-duration="1000">
           <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
+            <p class="text-[#453DB1] text-[22px] font-bold">Sport and Gamification App</p>
+            <a href="https://icdr.or.id" target="_blank"
+              class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
+              RallyRank
+            </a>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">
+              RallyRank is an all-in-one community and management platform designed for Padel tennis clubs and players.
+              It streamlines club operations, simplifies member registration, automates matchmaking, and organizes
+              tournaments, while keeping players engaged with real-time scoreboards, active rankings, and standings.
+            </p>
+            <p class="text-gray max-w-[420px] mt-3 md:mt-5">Tech Stack: Next JS (Frontend), Golang (Backend)</p>
+            <div class="flex items-center gap-4 mt-5 md:mt-8">
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/next.svg" alt="" loading="lazy" />
+              </div>
+              <div class="border-2 border-gray/[14%] h-14 w-14 rounded-full flex items-center justify-center">
+                <img src="@/assets/images/tech/go.svg" alt="" loading="lazy" />
+              </div>
+            </div>
+            <div class="inline-block mt-8">
+              <a href="https://www.rallyrank.id" target="_blank"
+                class="flex items-center gap-2.5 py-3.5 text-sm font-semibold px-5 border-2 border-dark duration-300 hover:bg-dark hover:text-white dark:border-white/[14%] dark:hover:bg-white dark:hover:text-dark">
+                View Project
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.0035 7.4083L5.41176 16L4 14.5882L12.5917 5.99654H5.01905V4H16V14.981H14.0035V7.4083Z"
+                    fill="currentColor" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="xl:max-w-[670px] lg:max-w-[400px] w-full lg:order-2 order-1">
+            <div class="relative w-full h-full bg-gray-100 flex items-center justify-center">
+              <img loading="lazy" src="@/assets/images/work/rallyrank.png"
+                class="max-w-full max-h-full object-contain p-6" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap lg:flex-nowrap items-stretch border-2 border-gray/20 dark:border-white/[12%]"
+          data-aos="fade-up" data-aos-duration="1000">
+          <div class="order-2 p-10 md:p-12 lg:flex-1 lg:order-1">
             <p class="text-[#453DB1] text-[22px] font-bold">Company Profile Website</p>
             <a href="https://icdr.or.id" target="_blank"
               class="font-bold text-2xl/normal md:text-3xl/normal lg:text-[40px]/normal inline-block mt-5">
