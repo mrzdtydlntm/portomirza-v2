@@ -184,7 +184,7 @@ export default {
                     <div class="mt-7">
                       <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
                         <span class="text-xl font-semibold">IT DevOps and Security Manager</span>
-                        <span class="font-semibold text-purple">2025 - now</span>
+                        <span class="font-semibold text-purple">2025 - 2026</span>
                       </div>
                       <p class="mt-5 text-gray">
                         As an IT DevOps and Security Manager, I am responsible for managing and maintaining engineering

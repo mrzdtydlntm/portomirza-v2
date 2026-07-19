@@ -65,7 +65,8 @@ export default {
           <div class="flex flex-col flex-wrap items-center gap-5 lg:flex-row">
             <div class="w-full lg:w-1/2">
               <div class="py-16 md:py-24" data-aos="fade-up" data-aos-duration="1000">
-                <p class="text-warning bg-warning/[14%] font-semibold text-2xl inline-block p-2.5">
+                <p class="text-purple font-semibold text-2xl inline-block p-2.5 rounded"
+                  style="background-color: rgba(5, 12, 23, 0.1);">
                   Hi! I'm Mirza Aditya Deliantama
                 </p>
                 <h1 class="mt-6 md:mt-8 font-bold text-3xl/normal md:text-[50px]/normal">
@@ -165,7 +166,7 @@ export default {
               </p>
             </div>
             <div class="mt-7">
-              <h2 class="font-semibold text-[26px]/normal">Hi! I'm Mirza Aditya Deliantama</h2>
+              <h2 class="font-semibold text-[26px]/normal">Just call me Mirza!</h2>
               <p class="mt-6 text-gray">
                 Passionate about technology, especially in software engineering. Experienced a lot during these 5+ years
                 as a software engineer, especially being a Backend and DevOps engineer. Mastering programming with
