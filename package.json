@@ -13,28 +13,28 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
     "bootstrap-vue-next": "^0.10.11",
-    "core-js": "^3.47.0",
+    "core-js": "^3.49.0",
     "path-browserify": "^1.0.1",
     "sass-loader": "^13.3.3",
-    "swiper": "^12.1.2",
-    "vue": "^3.5.27",
+    "swiper": "^12.2.0",
+    "vue": "^3.5.40",
     "vue-gtag-next": "^1.14.0",
     "vue-router": "^4.6.4",
     "vue-smooth-scroll": "^1.0.13",
     "vue3-count-to": "^1.1.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.6",
-    "@babel/eslint-parser": "^7.28.6",
+    "@babel/core": "^7.29.7",
+    "@babel/eslint-parser": "^7.29.7",
     "@vue/cli-plugin-babel": "~5.0.9",
     "@vue/cli-plugin-eslint": "~5.0.9",
     "@vue/cli-service": "~5.0.9",
-    "autoprefixer": "^10.4.23",
-    "eslint": "^7.32.0",
+    "autoprefixer": "^10.5.4",
+    "eslint": "^8.57.0",
     "eslint-plugin-vue": "^8.7.1",
-    "postcss": "^8.5.6",
+    "postcss": "^8.5.23",
     "prettier": "3.2.5",
-    "sass": "^1.97.2",
+    "sass": "^1.102.0",
     "swiper": "^12.1.2",
     "tailwindcss": "^3.4.19",
     "unplugin-vue-components": "^0.25.2"
@@ -87,7 +87,9 @@
       "readdirp>picomatch": "^2.3.2",
       "tinyglobby>picomatch": "^4.0.4",
       "@rollup/pluginutils>picomatch": "^4.0.4",
-      "serialize-javascript": "^7.0.5"
+      "serialize-javascript": "^7.0.5",
+      "uuid": "^11.1.1",
+      "brace-expansion": "^5.0.8"
     },
     "peerDependencyRules": {
       "ignoreMissing": [

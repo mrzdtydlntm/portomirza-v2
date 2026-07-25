@@ -16,7 +16,7 @@ export default {
     return {
       typeValue: "",
       typeStatus: false,
-      displayTextArray: ["Software Engineer", "DevOps Engineer", "Physicist"],
+      displayTextArray: ["Software Engineer", "DevOps Engineer", "System Analyst"],
       typingSpeed: 50,
       erasingSpeed: 50,
       newTextDelay: 1000,
@@ -132,15 +132,16 @@ export default {
               </div>
             </div>
             <div
-              class="bg-gradient-radial from-[#994FF5] to-[#FFC41F] max-w-[800px] md:top-[100px] lg:absolute bottom-0 ltr:right-0 rtl:left-0 lg:w-6/12 w-full">
+              class="bg-gradient-liner from-[#994FF5] to-[#FFC41F] max-w-[800px] md:top-[100px] lg:absolute bottom-0 ltr:right-0 rtl:left-0 lg:w-6/12 w-full">
               <!-- <p
                 class="max-w-2xl mx-auto mt-5 text-5xl font-extrabold text-center text-transparent uppercase md:text-7xl lg:text-8xl bg-gradient-to-b from-white/70 bg-clip-text"
               >
                 Mirza Aditya Deliantama
               </p> -->
               <div class="">
-                <img src="@/assets/images/mrz-img.png" class="inset-x-0 bottom-0 mx-auto -mt-16 lg:absolute md:mt-0"
-                  alt="" width="614" height="615" loading="eager" />
+                <img src="@/assets/images/mrz-img.png"
+                  class="inset-x-0 bottom-0 mx-auto -mt-16 lg:absolute md:mt-0 transform scale-110 md:scale-125 lg:scale-150 origin-bottom"
+                  alt="" width="750" height="751" loading="eager" />
               </div>
             </div>
           </div>
