@@ -139,8 +139,8 @@ export default {
                 Mirza Aditya Deliantama
               </p> -->
               <div class="">
-                <img src="@/assets/images/mrz-img.png" class="inset-x-0 bottom-0 mx-auto -mt-16 lg:absolute md:mt-0"
-                  alt="" width="614" height="615" loading="eager" />
+                <img src="@/assets/images/mrz-img.png" class="inset-x-0 bottom-0 mx-auto -mt-16 lg:absolute md:mt-0 transform scale-110 md:scale-125 lg:scale-150 origin-bottom"
+                  alt="" width="750" height="751" loading="eager" />
               </div>
             </div>
           </div>
