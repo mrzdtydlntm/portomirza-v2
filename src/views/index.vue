@@ -132,7 +132,7 @@ export default {
               </div>
             </div>
             <div
-              class="bg-gradient-radial from-[#994FF5] to-[#FFC41F] max-w-[800px] md:top-[100px] lg:absolute bottom-0 ltr:right-0 rtl:left-0 lg:w-6/12 w-full">
+              class="bg-gradient-liner from-[#994FF5] to-[#FFC41F] max-w-[800px] md:top-[100px] lg:absolute bottom-0 ltr:right-0 rtl:left-0 lg:w-6/12 w-full">
               <!-- <p
                 class="max-w-2xl mx-auto mt-5 text-5xl font-extrabold text-center text-transparent uppercase md:text-7xl lg:text-8xl bg-gradient-to-b from-white/70 bg-clip-text"
               >
