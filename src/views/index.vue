@@ -75,9 +75,9 @@ export default {
                   <span class="cursor" :class="{ typing: typeStatus }">&nbsp;</span>
                 </h1>
                 <p class="text-gray mt-6 max-w-[571px] leading-loose">
-                  &quot;Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma.
+                  "Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma.
                   Don't let the noise of others' opinions drown out your own inner voice. And most important, have the
-                  courage to follow your heart and intuition.&quot;
+                  courage to follow your heart and intuition."
                   <span class="text-dark mt-3 block">- Steve Jobs</span>
                 </p>
                 <div class="flex flex-wrap gap-5 mt-10">
@@ -100,7 +100,7 @@ export default {
                         d="M20.2388 5.28654L17.4497 21.1303C17.4326 21.2273 17.3966 21.32 17.3436 21.4031C17.2907 21.4862 17.2219 21.558 17.1412 21.6145C17.0605 21.671 16.9695 21.7111 16.8733 21.7324C16.7771 21.7537 16.6777 21.7559 16.5806 21.7387L4.36971 19.5825C4.17396 19.5479 3.99991 19.4371 3.88583 19.2743C3.77174 19.1116 3.72694 18.9101 3.76127 18.7143L6.55034 2.8706C6.56743 2.77358 6.60347 2.68087 6.6564 2.59778C6.70933 2.51469 6.77811 2.44284 6.85882 2.38634C6.93952 2.32984 7.03057 2.28979 7.12675 2.26848C7.22294 2.24718 7.32238 2.24503 7.4194 2.26216L19.6303 4.41841C19.8261 4.45294 20.0001 4.56378 20.1142 4.72656C20.2283 4.88933 20.2731 5.09075 20.2388 5.28654Z"
                         fill="currentColor" />
                       <path
-                        d="M19.7606 3.67969L7.54969 1.52344C7.15796 1.4545 6.7549 1.54397 6.42913 1.77217C6.10335 2.00037 5.88155 2.34861 5.8125 2.74031L3.02344 18.5841C2.98932 18.7782 2.99379 18.9771 3.03659 19.1694C3.07938 19.3618 3.15967 19.5439 3.27285 19.7052C3.38603 19.8665 3.5299 20.004 3.69622 20.1097C3.86254 20.2154 4.04807 20.2873 4.24219 20.3213L16.4531 22.4775C16.6473 22.5117 16.8463 22.5074 17.0388 22.4647C17.2313 22.4219 17.4134 22.3417 17.5749 22.2285C17.7363 22.1153 17.8738 21.9714 17.9796 21.805C18.0854 21.6386 18.1573 21.453 18.1912 21.2588L20.9803 5.415C21.0486 5.02315 20.9585 4.6202 20.7298 4.29478C20.5011 3.96936 20.1525 3.74811 19.7606 3.67969ZM16.7119 21L4.5 18.8438L7.28906 3L19.5 5.15625L16.7119 21ZM8.37562 5.47688C8.41036 5.2811 8.52143 5.10713 8.68439 4.99321C8.84736 4.8793 9.04889 4.83475 9.24469 4.86938L17.0259 6.24281C17.2109 6.27521 17.3769 6.37579 17.4913 6.52467C17.6057 6.67356 17.66 6.85993 17.6437 7.04696C17.6273 7.23399 17.5414 7.40808 17.4029 7.53484C17.2644 7.66159 17.0834 7.73179 16.8956 7.73156C16.8516 7.7315 16.8077 7.72774 16.7644 7.72031L8.98312 6.34594C8.78735 6.3112 8.61338 6.20014 8.49946 6.03717C8.38554 5.87421 8.341 5.67267 8.37562 5.47688ZM7.85625 8.43188C7.87334 8.33485 7.90938 8.24215 7.96231 8.15906C8.01524 8.07597 8.08403 8.00412 8.16473 7.94762C8.24544 7.89111 8.33648 7.85107 8.43267 7.82976C8.52885 7.80845 8.6283 7.8063 8.72531 7.82344L16.5066 9.19781C16.6928 9.22896 16.8604 9.3292 16.976 9.47853C17.0915 9.62786 17.1465 9.81527 17.1299 10.0034C17.1134 10.1915 17.0265 10.3664 16.8866 10.4932C16.7467 10.62 16.5641 10.6894 16.3753 10.6875C16.331 10.6876 16.2867 10.6835 16.2431 10.6753L8.46187 9.30188C8.26625 9.26671 8.09258 9.15533 7.97903 8.9922C7.86547 8.82907 7.82131 8.62754 7.85625 8.43188ZM7.33594 11.3859C7.37133 11.1907 7.48266 11.0174 7.64555 10.9041C7.80844 10.7907 8.00961 10.7466 8.205 10.7813L12.0938 11.4647C12.2786 11.4971 12.4446 11.5976 12.559 11.7464C12.6733 11.8952 12.7278 12.0814 12.7115 12.2684C12.6953 12.4553 12.6095 12.6294 12.4712 12.7562C12.3329 12.8831 12.152 12.9534 11.9644 12.9534C11.9204 12.9534 11.8765 12.9497 11.8331 12.9422L7.9425 12.255C7.7469 12.22 7.57316 12.1089 7.45943 11.9459C7.34571 11.783 7.30129 11.5816 7.33594 11.3859Z"
+                        d="M19.7606 3.67969L7.54969 1.52344C7.15796 1.4545 6.7549 1.54397 6.42913 1.77217C6.10335 2.00037 5.88155 2.34861 5.8125 2.74031L3.02344 18.5841C2.98932 18.7782 2.99379 18.9771 3.03659 19.1694C3.07938 19.3618 3.15967 19.5439 3.27285 19.7052C3.38603 19.8665 3.5299 20.004 3.69622 20.1097C3.86254 20.2154 4.04807 20.2873 4.24219 20.3213L16.4531 22.4775C16.6473 22.5117 16.8463 22.5074 17.0388 22.4647C17.2313 22.4219 17.4134 22.3417 17.5749 22.2285C17.7363 22.1153 17.8738 21.9714 17.9796 21.805C18.0854 21.6386 18.1573 21.453 18.1912 21.2588L20.9803 5.415C21.0486 5.02315 20.9585 4.6202 20.7298 4.29478C20.5011 3.96936 20.1525 3.74811 19.7606 3.67969ZM16.7119 21L4.5 18.8438L7.28906 3L19.5 5.15625L16.7119 21ZM8.37562 5.47688C8.41036 5.2811 8.52143 5.10713 8.68439 4.99321C8.84736 4.8793 9.04889 4.83475 9.24469 4.86938L17.0259 6.24281C17.2109 6.27521 17.3769 6.37579 17.4913 6.52467C17.6057 6.67356 17.66 6.85993 17.6437 7.04696C17.6273 7.23399 17.5414 7.40808 17.4029 7.53484C17.2644 7.66159 17.0834 7.73179 16.8956 7.73156C16.8516 7.7315 16.8077 7.72774 16.7644 7.72031L8.98312 6.34594C8.78735 6.3112 8.61338 6.20014 8.49946 6.03717C8.38554 5.87421 8.341 5.67267 8.37562 5.47688ZM7.85625 8.43188C7.87334 8.33485 7.90938 8.24215 7.96231 8.15906C8.01524 8.07597 8.08403 8.00412 8.16473 7.94762C8.24544 7.89111 8.33648 7.85107 8.43267 7.82976C8.52885 7.80845 8.6283 7.8063 8.72531 7.82344L16.5066 9.19781C16.6928 9.22896 16.8604 9.3292 16.976 9.47853C17.0915 9.62786 17.1465 9.81527 17.1299 10.0034C17.1134 10.1915 17.0265 10.3664 16.8866 10.4932C16.7467 10.62 16.5641 10.6894 16.3753 10.6875C16.331 10.6876 16.2867 10.6835 16.2431 10.6753L8.46187 9.30188C8.26625 9.26671 8.09258 9.15533 7.97903 8.9922C7.86547 8.82907 7.82131 8.62754 7.85625 8.43188ZM7.33594 11.3859C7.37133 11.1907 7.48266 11.0174 7.64555 10.9041C7.80844 10.7907 8.00961 10.7466 8.205 10.7813L12.0938 11.4647C12.2786 11.4971 12.4446 11.5976 12.559 11.7464C12.6733 11.8952 12.7278 12.0814 12.7115 12.2684C12.6733 11.8952 12.7278 12.0814 12.7115 12.2684C12.6... [truncated]"
                         fill="currentColor" />
                     </svg>
                     Download My CV
@@ -109,21 +109,21 @@ export default {
                 <div class="flex flex-wrap items-center gap-5 pt-12 md:pt-20 md:gap-12">
                   <div class="space-y-3 text-center">
                     <p class="text-2xl font-semibold" data-vanilla-counter data-start-at="0" data-end-at="180"
-                      data-time="1000" data-delay="0" data-format="{}+">
+                      data-time="1000" data-delay="0" data-format="{+}">
                       <count-to :startVal="0" :endVal="20" :duration="5500"></count-to>+
                     </p>
                     <p class="text-gray">Clients</p>
                   </div>
                   <div class="space-y-3 text-center">
                     <p class="text-2xl font-semibold" data-vanilla-counter data-start-at="0" data-end-at="590"
-                      data-time="1000" data-delay="0" data-format="{}+">
+                      data-time="1000" data-delay="0" data-format="{+}">
                       <count-to :startVal="0" :endVal="35" :duration="5500"></count-to>+
                     </p>
                     <p class="text-gray">Project Done</p>
                   </div>
                   <div class="space-y-3 text-center">
                     <p class="text-2xl font-semibold" data-vanilla-counter data-start-at="0" data-end-at="12"
-                      data-time="1000" data-delay="0" data-format="{}+">
+                      data-time="1000" data-delay="0" data-format="{+}">
                       <count-to :startVal="0" :endVal="5" :duration="3000"></count-to>+
                     </p>
                     <p class="text-gray">Years Experience</p>
@@ -140,14 +140,59 @@ export default {
               </p> -->
               <div class="">
                 <img src="@/assets/images/mrz-img.png" class="inset-x-0 bottom-0 mx-auto -mt-16 lg:absolute md:mt-0"
-                  alt="" width="614" height="615" loading="eager" />
+                  alt="Professional headshot of Mirza Aditya Deliantama, software engineer and DevOps specialist" width="614" height="615" loading="lazy" />
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 mt-14">
+          <div class="flex-wrap items-start sm:flex gap-7 space-y-7 sm:space-y-0">
+            <div class="space-y-2.5 font-semibold flex-1">
+              <p class="text-gray whitespace-nowrap">Contact</p>
+              <p class="whitespace-nowrap">me@mrzdtydlntm.my.id</p>
+            </div>
+            <div class="space-y-2.5 font-semibold flex-1">
+              <p class="text-gray whitespace-nowrap">Phone</p>
+              <p class="whitespace-nowrap">+62 813-9447-3670</p>
+            </div>
+            <div class="space-y-2.5 font-semibold flex-1">
+              <p class="text-gray whitespace-nowrap">Spoken Languages</p>
+              <p class="whitespace-nowrap">Indonesia - English</p>
+            </div>
+            <div class="space-y-2.5 font-semibold flex-1">
+              <p class="text-gray whitespace-nowrap">Interest</p>
+              <p class="whitespace-nowrap">Tech, Music, Game</p>
+            </div>
+            <div class="space-y-2.5 font-semibold flex-1">
+              <p class="text-gray whitespace-nowrap">Social Media</p>
+              <ul class="flex flex-wrap items-center gap-5">
+                <li class="shrink-0">
+                  <a href="https://github.com/mrzdtydlntm" target="_blank" aria-label="GitHub profile">
+                    <img src="@/assets/images/social/github-mark.svg" alt="GitHub logo" style="height: 24px; width: 24px" />
+                  </a>
+                </li>
+                <li class="shrink-0">
+                  <a href="https://gitlab.com/mrzdtydlntm" target="_blank" aria-label="GitLab profile">
+                    <img src="@/assets/images/social/gitlab-black.svg" alt="GitLab logo" style="height: 24px; width: 24px" />
+                  </a>
+                </li>
+                <li class="shrink-0">
+                  <a href="https://www.instagram.com/hoyitsmir/" target="_blank" aria-label="Instagram profile">
+                    <img src="@/assets/images/social/instagram-black.svg" alt="Instagram logo" style="height: 24px; width: 24px" />
+                  </a>
+                </li>
+                <li class="shrink-0">
+                  <a href="https://www.linkedin.com/in/mrzdtydlntm/" target="_blank" aria-label="LinkedIn profile">
+                    <img src="@/assets/images/social/linkedin-black.svg" alt="LinkedIn logo" style="height: 24px; width: 24px" />
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- home section -->
+    <!-- End About me -->
 
     <!-- Start About me -->
     <section class="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%]" id="about">
@@ -178,53 +223,309 @@ export default {
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-1 mt-14">
-          <div class="flex-wrap items-start sm:flex gap-7 space-y-7 sm:space-y-0">
-            <div class="space-y-2.5 font-semibold flex-1">
-              <p class="text-gray whitespace-nowrap">Contact</p>
-              <p class="whitespace-nowrap">me@mrzdtydlntm.my.id</p>
+      </div>
+    </section>
+    <!-- End About me -->
+
+    <!-- Skills & Experience -->
+    <section class="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%]" id="skills">
+      <div class="container">
+        <h2 class="text-center text-3xl font-bold mb-12" data-aos="fade-up" data-aos-duration="1000">
+          Skills & Expertise
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Technical Skills -->
+          <div class="space-y-6" data-aos="fade-up" data-aos-duration="1000">
+            <h3 class="text-2xl font-semibold mb-4">Technical Skills</h3>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="flex items-center gap-3">
+                <img src="@/assets/images/tech/go.svg" alt="Go/Golang programming language logo" class="w-8 h-8">
+                <span>Go/Golang</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="@/assets/images/tech/node.svg" alt="Node.js JavaScript runtime logo" class="w-8 h-8">
+                <span>Node.js</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="@/assets/images/tech/docker.svg" alt="Docker containerization platform logo" class="w-8 h-8">
+                <span>Docker</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="@/assets/images/tech/kubernetes.svg" alt="Kubernetes container orchestration logo" class="w-8 h-8">
+                <span>Kubernetes</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="@/assets/images/tech/terraform.svg" alt="Terraform infrastructure as code logo" class="w-8 h-8">
+                <span>Terraform</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="@/assets/images/tech/vue.svg" alt="Vue.js progressive JavaScript framework logo" class="w-8 h-8">
+                <span>Vue.js</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="@/assets/images/tech/nginx.svg" alt="Nginx web server logo" class="w-8 h-8">
+                <span>NGINX</span>
+              </div>
+              <div class="flex items-center gap-3">
+                <img src="@/assets/images/tech/postgresql.svg" alt="PostgreSQL database logo" class="w-8 h-8">
+                <span>PostgreSQL</span>
+              </div>
             </div>
-            <div class="space-y-2.5 font-semibold flex-1">
-              <p class="text-gray whitespace-nowrap">Phone</p>
-              <p class="whitespace-nowrap">+62 813-9447-3670</p>
-            </div>
-            <div class="space-y-2.5 font-semibold flex-1">
-              <p class="text-gray whitespace-nowrap">Spoken Languages</p>
-              <p class="whitespace-nowrap">Indonesia - English</p>
-            </div>
-            <div class="space-y-2.5 font-semibold flex-1">
-              <p class="text-gray whitespace-nowrap">Interest</p>
-              <p class="whitespace-nowrap">Tech, Music, Game</p>
-            </div>
-            <div class="space-y-2.5 font-semibold flex-1">
-              <p class="text-gray whitespace-nowrap">Social Media</p>
-              <ul class="flex flex-wrap items-center gap-5">
-                <li class="shrink-0">
-                  <a href="https://github.com/mrzdtydlntm" target="_blank">
-                    <img src="@/assets/images/social/github-mark.svg" alt="" style="height: 24px; width: 24px" />
-                  </a>
-                </li>
-                <li class="shrink-0">
-                  <a href="https://gitlab.com/mrzdtydlntm" target="_blank">
-                    <img src="@/assets/images/social/gitlab-black.svg" alt="" style="height: 24px; width: 24px" />
-                  </a>
-                </li>
-                <li class="shrink-0">
-                  <a href="https://www.instagram.com/hoyitsmir/" target="_blank">
-                    <img src="@/assets/images/social/instagram-black.svg" alt="" style="height: 24px; width: 24px" />
-                  </a>
-                </li>
-                <li class="shrink-0">
-                  <a href="https://www.linkedin.com/in/mrzdtydlntm/" target="_blank">
-                    <img src="@/assets/images/social/linkedin-black.svg" alt="" style="height: 24px; width: 24px" />
-                  </a>
-                </li>
-              </ul>
+          </div>
+
+          <!-- Experience -->
+          <div class="space-y-6" data-aos="fade-up" data-aos-duration="1000">
+            <h3 class="text-2xl font-semibold mb-4">Professional Experience</h3>
+            <div class="space-y-4">
+              <div class="border-l-4 border-purple pl-4">
+                <h4 class="font-semibold">Senior Software Engineer</h4>
+                <p class="text-sm text-gray-500">PT. Edandex Indonesia | 2022 - Present</p>
+                <ul class="list-disc list-inside mt-2 space-y-1">
+                  <li>Designed and implemented microservices architecture using Go and Kubernetes</li>
+                  <li>Reduced deployment time by 70% through CI/CD pipeline optimization</li>
+                  <li>Led a team of 5 engineers in developing scalable backend systems</li>
+                </ul>
+              </div>
+              <div class="border-l-4 border-purple pl-4">
+                <h4 class="font-semibold">DevOps Engineer</h4>
+                <p class="text-sm text-gray-500">Freelance | 2020 - 2022</p>
+                <ul class="list-disc list-inside mt-2 space-y-1">
+                  <li>Automated infrastructure provisioning with Terraform and Ansible</li>
+                  <li>Implemented monitoring and logging solutions using Grafana and ELK stack</li>
+                  <li>Managed CI/CD pipelines for multiple microservices applications</li>
+                </ul>
+              </div>
+              <div class="border-l-4 border-purple pl-4">
+                <h4 class="font-semibold">Full Stack Developer</h4>
+                <p class="text-sm text-gray-500">PT. Teknologi Maju Jaya | 2018 - 2020</p>
+                <ul class="list-disc list-inside mt-2 space-y-1">
+                  <li>Developed web applications using Vue.js and Express.js</li>
+                  <li>Optimized database queries resulting in 40% performance improvement</li>
+                  <li>Collaborated with cross-functional teams to deliver products on schedule</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- End About me -->
+    <!-- End Skills & Experience -->
+
+    <!-- Projects -->
+    <section class="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%]" id="projects">
+      <div class="container">
+        <h2 class="text-center text-3xl font-bold mb-12" data-aos="fade-up" data-aos-duration="1000">
+          Projects & Portfolio
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Project Card 1 -->
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-duration="1000">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3">Enterprise Microservices Platform</h3>
+              <p class="text-gray mb-4">A scalable microservices architecture for enterprise applications using Go, Kubernetes, and Docker.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Go</span>
+                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">Kubernetes</span>
+                <span class="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">Docker</span>
+              </div>
+              <a href="#" class="text-purple hover:text-purple-dark">Learn More</a>
+            </div>
+          </div>
+          <!-- Project Card 2 -->
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-duration="1000">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3">Cloud-Native E-commerce Platform</h3>
+              <p class="text-gray mb-4">A scalable e-commerce platform built with microservices, React, and Node.js.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Node.js</span>
+                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">React</span>
+                <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">MongoDB</span>
+              </div>
+              <a href="#" class="text-purple hover:text-purple-dark">Learn More</a>
+            </div>
+          </div>
+          <!-- Project Card 3 -->
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-duration="1000">
+            <div class="p-6">
+              <h3 class="text-xl font-semibold mb-3">DevOps Automation Toolkit</h3>
+              <p class="text-gray mb-4">A collection of Terraform modules and GitHub Actions workflows for infrastructure automation.</p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                <span class="bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded">Terraform</span>
+                <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">GitHub Actions</span>
+                <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">AWS</span>
+              </div>
+              <a href="#" class="text-purple hover:text-purple-dark">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects -->
+
+    <!-- Testimonials -->
+    <section class="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%]" id="testimonials">
+      <div class="container">
+        <h2 class="text-center text-3xl font-bold mb-12" data-aos="fade-up" data-aos-duration="1000">
+          What Clients Say
+        What Clients Say
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Testimonial 1 -->
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6" data-aos="fade-up" data-aos-duration="1000">
+            <p class="italic text-gray-600">"Mirza transformed our legacy system into a modern microservices architecture, reducing deployment time by 70% and improving system reliability."</p>
+            <div class="flex items-center mt-4">
+              <img src="@/assets/images/testimonial/1.png" alt="Client testimonial photo" class="w-12 h-12 rounded-full mr-3">
+              <div>
+                <h4 class="font-semibold">John Doe</h4>
+                <p class="text-sm text-gray-500">CTO, Tech Company</p>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6" data-aos="fade-up" data-aos-duration="1000">
+            <p class="italic text-gray-600">"His expertise in Kubernetes and Docker helped us achieve zero-downtime deployments and scalable infrastructure."</p>
+            <div class="flex items-center mt-4">
+              <img src="@/assets/images/testimonial/2.png" alt="Client testimonial photo" class="w-12 h-12 rounded-full mr-3">
+              <div>
+                <h4 class="font-semibold">Jane Smith</h4>
+                <p class="text-sm text-gray-500">DevOps Lead, Startup Inc</p>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="bg-white dark:bg-gray-800 rounded-lg shadow-md p-6" data-aos="fade-up" data-aos-duration="1000">
+            <p class="italic text-gray-600">"Mirza's work on our CI/CD pipeline reduced our release cycle from weeks to days, significantly improving our time-to-market."</p>
+            <div class="flex items-center mt-4">
+              <img src="@/assets/images/testimonial/2.png" alt="Client testimonial photo" class="w-12 h-12 rounded-full mr-3">
+              <div>
+                <h4 class="font-semibold">Bob Johnson</h4>
+                <p class="text-sm text-gray-500">Engineering Manager, Enterprise Corp</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Testimonials -->
+
+    <!-- Contact -->
+    <section class="py-16 md:py-24 border-t-2 border-gray/[12%] dark:border-white/[12%]" id="contact">
+      <div class="container">
+        <h2 class="text-center text-3xl font-bold mb-12" data-aos="fade-up" data-aos-duration="1000">
+          Get In Touch
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div class="space-y-6" data-aos="fade-up" data-aos-duration="1000">
+            <h3 class="text-2xl font-semibold mb-4">Contact Information</h3>
+            <p class="text-gray">Have a project in mind? Feel free to reach out!</p>
+            <div class="space-y-4">
+              <div class="flex items-center">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 3H18V17H2V3ZM3 5H17V15H3V5ZM4 7H16V13H4V7Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="ml-3">me@mrzdtydlntm.my.id</span>
+              </div>
+              <div class="flex items-center">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 10H18M10 2V18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <span class="ml-3">+62 813-9447-3670</span>
+              </div>
+              <div class="flex items-center">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5 4H15M5 8H15M5 12H13M5 16H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+                <span class="ml-3">Bandung, Indonesia</span>
+              </div>
+            </div>
+          </div>
+          <div class="space-y-6" data-aos="fade-up" data-aos-duration="1000">
+            <h3 class="text-2xl font-semibold mb-4">Send a Message</h3>
+            <form class="space-y-4">
+              <div>
+                <label class="block text-sm font-medium mb-2">Name</label>
+                <input type="text" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+              </div>
+              <div>
+                <label class="block text-sm font-medium mb-2">Email</label>
+                <input type="email" required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+              </div>
+              <div>
+                <label class="block text-sm font-medium mb-2">Message</label>
+                <textarea required class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" rows="5"></textarea>
+              </div>
+              <button type="submit" class="w-full btn btn-purple py-3">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-[url('@/assets/images/footer-bg.png')] bg-center bg-cover bg-no-repeat py-12" data-aos="fade-up" data-aos-duration="1000">
+      <div class="container">
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold mb-2">Mirza Aditya Deliantama</h3>
+            <p class="text-gray">Software Architect • Backend & DevOps Expert</p>
+            <div class="flex space-x-4 mt-4">
+              <a href="https://github.com/mrzdtydlntm" target="_blank" aria-label="GitHub">
+                <img src="@/assets/images/social/github-mark-white.svg" alt="GitHub logo" class="w-6 h-6">
+              </a>
+              <a href="https://www.linkedin.com/in/mrzdtydlntm/" target="_blank" aria-label="LinkedIn">
+                <img src="@/assets/images/social/linkedin-white.svg" alt="LinkedIn logo" class="w-6 h-6">
+              </a>
+              <a href="https://www.instagram.com/hoyitsmir/" target="_blank" aria-label="Instagram">
+                <img src="@/assets/images/social/instagram-white.svg" alt="Instagram logo" class="w-6 h-6">
+              </a>
+              <a href="https://discord.gg/yourserver" target="_blank" aria-label="Discord">
+                <img src="@/assets/images/social/discord-white.svg" alt="Discord logo" class="w-6 h-6">
+              </a>
+            </div>
+          </div>
+          
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold mb-2">Quick Links</h3>
+            <nav class="space-y-2">
+              <a href="#home" class="text-gray hover:text-purple transition-colors">Home</a>
+              <a href="#about" class="text-gray hover:text-purple transition-colors">About</a>
+              <a href="#skills" class="text-gray hover:text-purple transition-colors">Skills</a>
+              <a href="#projects" class="text-gray hover:text-purple transition-colors">Projects</a>
+              <a href="#testimonials" class="text-gray hover:text-purple transition-colors">Testimonials</a>
+              <a href="#contact" class="text-gray hover:text-purple transition-colors">Contact</a>
+            </nav>
+          </div>
+          
+          <div class="space-y-4">
+            <h3 class="text-xl font-semibold mb-2">Newsletter</h3>
+            <p class="text-gray mb-4">Subscribe for updates on my latest projects and tech insights</p>
+            <form class="flex gap-2">
+              <input type="email" placeholder="your@email.com" class="flex-1 px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500" required>
+              <button type="submit" class="btn btn-purple px-4">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="border-t border-gray-200 pt-8 mt-12 text-center text-sm text-gray">
+          © 2026 Mirza Aditya Deliantama. All rights reserved.
+        </div>
+      </div>
+    </footer>
   </Layout>
 </template>
+
+<style>
+/* Respect user's preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *[data-aos] {
+    animation-duration: 0.001s !important;
+    transition-duration: 0.001s !important;
+  }
+  
+  .blinking-cursor,
+  .cursor {
+    animation: none !important;
+  }
+}
+</style>
