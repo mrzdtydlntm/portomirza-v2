@@ -110,14 +110,14 @@ export default {
                   <div class="space-y-3 text-center">
                     <p class="text-2xl font-semibold" data-vanilla-counter data-start-at="0" data-end-at="180"
                       data-time="1000" data-delay="0" data-format="{}+">
-                      <count-to :startVal="0" :endVal="20" :duration="5500"></count-to>+
+                      <count-to :startVal="0" :endVal="25" :duration="5500"></count-to>+
                     </p>
                     <p class="text-gray">Clients</p>
                   </div>
                   <div class="space-y-3 text-center">
                     <p class="text-2xl font-semibold" data-vanilla-counter data-start-at="0" data-end-at="590"
                       data-time="1000" data-delay="0" data-format="{}+">
-                      <count-to :startVal="0" :endVal="35" :duration="5500"></count-to>+
+                      <count-to :startVal="0" :endVal="40" :duration="5500"></count-to>+
                     </p>
                     <p class="text-gray">Project Done</p>
                   </div>

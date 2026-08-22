@@ -183,6 +183,79 @@ export default {
                     </div>
                     <div class="mt-7">
                       <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
+                        <span class="text-xl font-semibold">Software Developer Fullstack</span>
+                        <span class="font-semibold text-purple">2026 - now</span>
+                      </div>
+                      <p class="mt-5 text-gray">
+                        Responsible for developing and maintaining software applications, including designing, coding,
+                        testing, and deploying new features as well as fixing bugs or issues in existing ones. Handling
+                        product and application performance optimization and infrastructure testing.
+                      </p>
+                      <p class="mt-6 font-semibold">Xtremax - Bandung, West Java 40125</p>
+                      <div class="flex flex-wrap items-center gap-5 mt-7">
+                        <div
+                          class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
+                          <img loading="lazy" src="@/assets/images/tech/next.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
+                          <img loading="lazy" src="@/assets/images/tech/node.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
+                          <img loading="lazy" src="@/assets/images/tech/go.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
+                          <img loading="lazy" src="@/assets/images/tech/supabase.svg" alt="" />
+                        </div>
+                        <div
+                          class="flex items-center justify-center border-2 rounded-full h-14 w-14 border-gray/10 backdrop-blur-2xl bg-gradient-liner from-gray/10 to-transparent">
+                          <img loading="lazy" src="@/assets/images/tech/aws.svg" alt="" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="bg-gradient-radial from-[#994FF5] to-[#FFC41F] shrink-0 rounded-full w-2.5 h-2.5 block absolute ltr:left-px rtl:right-px ltr:-translate-x-1/2 rtl:translate-x-1/2 ltr:md:left-1/2 rtl:md:right-1/2 transform ltr:md:-translate-x-1/2 rtl:md:translate-x-1/2 top-1/2 -translate-y-1/2">
+              </div>
+            </div>
+          </div>
+
+          <br /><br />
+
+          <div class="relative">
+            <div class="flex flex-col items-center md:flex-row">
+              <div class="flex items-center justify-end w-full mx-auto">
+                <div class="w-full md:w-1/2 ltr:pl-7 rtl:pr-7 ltr:md:pl-8 rtl:md:pr-8 ltr:lg:pl-14 rtl:lg:pr-14">
+                  <div class="space-y-5 ltr:text-left rtl:text-right">
+                    <div>
+                      <svg class="inline-block" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path opacity="0.2"
+                          d="M18.0625 4.24999V28.6875H5.3125V11.3355C5.31239 11.1606 5.35549 10.9883 5.43797 10.834C5.52045 10.6797 5.63976 10.5481 5.78531 10.451L16.4103 3.36811C16.5702 3.26145 16.756 3.20015 16.9479 3.19073C17.1399 3.18131 17.3308 3.22413 17.5003 3.31462C17.6699 3.40511 17.8117 3.5399 17.9107 3.70461C18.0097 3.86933 18.0621 4.05781 18.0625 4.24999Z"
+                          fill="url(#paint0_radial_122_112)" />
+                        <path
+                          d="M31.875 27.625H29.75V12.75C29.75 12.1864 29.5261 11.6459 29.1276 11.2474C28.7291 10.8489 28.1886 10.625 27.625 10.625H19.125V4.25001C19.1252 3.8652 19.021 3.48755 18.8234 3.15736C18.6258 2.82717 18.3422 2.55684 18.003 2.37521C17.6637 2.19359 17.2815 2.1075 16.8972 2.12612C16.5128 2.14474 16.1407 2.26738 15.8206 2.48095L5.19562 9.56251C4.90415 9.75697 4.66529 10.0205 4.50031 10.3296C4.33532 10.6387 4.24933 10.9838 4.25 11.3342V27.625H2.125C1.84321 27.625 1.57296 27.7369 1.3737 27.9362C1.17444 28.1355 1.0625 28.4057 1.0625 28.6875C1.0625 28.9693 1.17444 29.2396 1.3737 29.4388C1.57296 29.6381 1.84321 29.75 2.125 29.75H31.875C32.1568 29.75 32.427 29.6381 32.6263 29.4388C32.8256 29.2396 32.9375 28.9693 32.9375 28.6875C32.9375 28.4057 32.8256 28.1355 32.6263 27.9362C32.427 27.7369 32.1568 27.625 31.875 27.625ZM27.625 12.75V27.625H19.125V12.75H27.625ZM6.375 11.3342L17 4.25001V27.625H6.375V11.3342ZM14.875 14.875V17C14.875 17.2818 14.7631 17.5521 14.5638 17.7513C14.3645 17.9506 14.0943 18.0625 13.8125 18.0625C13.5307 18.0625 13.2605 17.9506 13.0612 17.7513C12.8619 17.5521 12.75 17.2818 12.75 17V14.875C12.75 14.5932 12.8619 14.323 13.0612 14.1237C13.2605 13.9244 13.5307 13.8125 13.8125 13.8125C14.0943 13.8125 14.3645 13.9244 14.5638 14.1237C14.7631 14.323 14.875 14.5932 14.875 14.875ZM10.625 14.875V17C10.625 17.2818 10.5131 17.5521 10.3138 17.7513C10.1145 17.9506 9.84429 18.0625 9.5625 18.0625C9.28071 18.0625 9.01046 17.9506 8.8112 17.7513C8.61194 17.5521 8.5 17.2818 8.5 17V14.875C8.5 14.5932 8.61194 14.323 8.8112 14.1237C9.01046 13.9244 9.28071 13.8125 9.5625 13.8125C9.84429 13.8125 10.1145 13.9244 10.3138 14.1237C10.5131 14.323 10.625 14.5932 10.625 14.875ZM10.625 22.3125V24.4375C10.625 24.7193 10.5131 24.9896 10.3138 25.1888C10.1145 25.3881 9.84429 25.5 9.5625 25.5C9.28071 25.5 9.01046 25.3881 8.8112 25.1888C8.61194 24.9896 8.5 24.7193 8.5 24.4375V22.3125C8.5 22.0307 8.61194 21.7605 8.8112 21.5612C9.01046 21.3619 9.28071 21.25 9.5625 21.25C9.84429 21.25 10.1145 21.3619 10.3138 21.5612C10.5131 21.7605 10.625 22.0307 10.625 22.3125ZM14.875 22.3125V24.4375C14.875 24.7193 14.7631 24.9896 14.5638 25.1888C14.3645 25.3881 14.0943 25.5 13.8125 25.5C13.5307 25.5 13.2605 25.3881 13.0612 25.1888C12.8619 24.9896 12.75 24.7193 12.75 24.4375V22.3125C12.75 22.0307 12.8619 21.7605 13.0612 21.5612C13.2605 21.3619 13.5307 21.25 13.8125 21.25C14.0943 21.25 14.3645 21.3619 14.5638 21.5612C14.7631 21.7605 14.875 22.0307 14.875 22.3125Z"
+                          fill="url(#paint1_radial_122_112)" />
+                        <defs>
+                          <radialGradient id="paint0_radial_122_112" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(11.6875 15.9385) rotate(116.567) scale(14.2541 11.4038)">
+                            <stop stop-color="#994FF5" />
+                            <stop offset="1" stop-color="#FFC41F" />
+                          </radialGradient>
+                          <radialGradient id="paint1_radial_122_112" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                            gradientTransform="translate(17 15.9368) rotate(139.084) scale(21.0905 20.8765)">
+                            <stop stop-color="#994FF5" />
+                            <stop offset="1" stop-color="#FFC41F" />
+                          </radialGradient>
+                        </defs>
+                      </svg>
+                    </div>
+                    <div class="mt-7">
+                      <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:gap-12">
                         <span class="text-xl font-semibold">IT DevOps and Security Manager</span>
                         <span class="font-semibold text-purple">2025 - 2026</span>
                       </div>
